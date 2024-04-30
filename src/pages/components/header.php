@@ -443,4 +443,53 @@
     </div>
 </div>
 
+<div class="mobile-menu-panel">
+    <div class="mobile-menu-panel__toolbar">
+        <ul class="list-reset mobile-menu-panel__list">
+            <li>
+                <a class="btn-reset btn btn-header active" href="javascript:;">
+                    <svg class="icon icon-fill btn__icon">
+                        <use href="img/sprite.svg#filled-home"></use>
+                    </svg>
+                    <span class="btn__text">Главная</span>
+                </a>
+            </li>
+            <li>
+                <a class="btn-reset btn btn-header" href="javascript:;">
+                    <svg class="icon icon-fill btn__icon">
+                        <use href="img/sprite.svg#filled-catalog"></use>
+                    </svg>
+                    <span class="btn__text">Каталог</span>
+                </a>
+            </li>
+            <li>
+                <button class="btn-reset btn btn-header">
+                    <span class="btn-header__count">16</span>
+                    <svg class="icon icon-fill btn__icon">
+                        <use href="img/sprite.svg#filled-heart"></use>
+                    </svg>
+                    <span class="btn__text">Избранное</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn-reset btn btn-header">
+                    <span class="btn-header__count">2</span>
+                    <svg class="icon icon-fill btn__icon">
+                        <use href="img/sprite.svg#filled-cart"></use>
+                    </svg>
+                    <span class="btn__text price">152 800 ₽</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn-reset btn btn-header" data-fancybox data-src="#modal-auth">
+                    <svg class="icon icon-fill btn__icon">
+                        <use href="img/sprite.svg#filled-user"></use>
+                    </svg>
+                    <span class="btn__text">Войти</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
+
 <main class="main">
