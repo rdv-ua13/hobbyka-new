@@ -862,15 +862,11 @@ application.prototype.initAccordion = function () {
                 if (!$(this).hasClass("open")) {
                     $(this).addClass("open");
                     $(this).closest(".accordion__item").addClass("active");
-                    $(this).closest(".accordion__item").find(".accordion__collapse").removeClass("collapsed");
-                    $(this).closest(".accordion__item").find(".accordion__collapse").slideDown(160);
+                    $(this).closest(".accordion__item").find(".accordion__collapse").removeClass("collapsed").slideDown(160);
                 } else if ($(this).hasClass("open")) {
                     $(this).removeClass("open");
                     $(this).closest(".accordion__item").removeClass("active");
-                    $(this).closest(".accordion__item").find(".accordion__collapse").slideUp(160);
-                    setTimeout(function () {
-                        $(this).closest(".accordion__item").find(".accordion__collapse").addClass("collapsed");
-                    }, 160);
+                    $(this).closest(".accordion__item").find(".accordion__collapse").slideUp(160).addClass("collapsed");
                 }
             });
         }

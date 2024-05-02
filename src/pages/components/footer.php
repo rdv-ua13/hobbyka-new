@@ -93,7 +93,7 @@
                             <div class="footer-contacts">
                                 <div class="footer-contacts__tel">
                                     <a class="footer-contacts__number" href="tel:+88003333778">8 800 333-37-78</a>
-                                    <span class="caption-color">Бесплатно по России</span>
+                                    <span class="footer-contacts__tel-caption">Бесплатно по России</span>
                                 </div>
                                 <div class="social">
                                     <div class="social__title footer__title">Мы в соцсетях</div>

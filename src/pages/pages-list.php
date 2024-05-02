@@ -57,7 +57,7 @@
 <body>
     <div style="display: flex; align-items:center; margin: 0 0 15px 20px;">
         <div class="logo">
-            <img src="img/sprite.svg#logo" width="140" height="68" alt="Логотип компании">
+            <img src="img/sprite.svg#logo-dark" width="140" height="68" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
                 <span style="color: forestgreen; font-weight: 600;">0 + ui</span>

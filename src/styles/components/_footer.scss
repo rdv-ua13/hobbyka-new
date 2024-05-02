@@ -21,13 +21,6 @@
 			}
 		}
 		.accordion {
-			&__btn {
-				gap: 12px;
-
-				.icon {
-					margin-top: 4px;
-				}
-			}
 			.icon {
 				fill: var(--white-color);
 				stroke: var(--white-color);
@@ -43,6 +36,11 @@
 				display: flex;
 				flex-direction: column;
 				gap: 4px;
+
+				&-caption {
+					color: var(--gray3-color);
+					line-height: 1.4;
+				}
 			}
 			&__number {
 				font-weight: 700;
@@ -148,8 +146,40 @@
 				font-size: 14px;
 			}
 			.footer-contacts {
+				&__tel {
+					&-caption {
+						font-size: 14px;
+					}
+				}
 				&__number {
 					font-size: 24px;
+				}
+			}
+			.accordion {
+				&__item {
+					padding: unset;
+					border-radius: unset;
+					box-shadow: unset;
+				}
+				&__header {
+					&:not(:last-child) {
+						margin-bottom: 20px;
+					}
+				}
+				&__btn {
+					.icon {
+						display: none;
+					}
+				}
+				&__collapse {
+					padding: unset;
+
+					&.collapsed {
+						display: block !important;
+					}
+					&-content {
+						overflow: unset;
+					}
 				}
 			}
 		}
@@ -187,6 +217,11 @@
 		padding-top: 32px;
 		padding-bottom: 24px;
 
+		&__column {
+			min-width: 100%;
+			width: 100%;
+		}
+
 		&-item {
 			&:not(:last-child) {
 				margin-bottom: 32px;
@@ -202,8 +237,22 @@
 				font-size: 13px;
 			}
 			.footer-contacts {
+				&__tel {
+					&-caption {
+						font-size: 13px;
+					}
+				}
 				&__number {
 					font-size: 20px;
+				}
+			}
+			.accordion {
+				&__btn {
+					gap: 12px;
+
+					.icon {
+						margin-top: 4px;
+					}
 				}
 			}
 		}
@@ -239,23 +288,6 @@
 
 		.payment-supports {
 			gap: 24px;
-		}
-	}
-}
-/**/
-@media (max-width: 575.98px) {
-	.footer {
-		.footer__column {
-			min-width: 100%;
-			width: 100%;
-		}
-	}
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-	.footer {
-		.footer__column {
-			min-width: calc((100vw - 64px) / 2);
-			width: calc((100vw - 64px) / 2);
 		}
 	}
 }
