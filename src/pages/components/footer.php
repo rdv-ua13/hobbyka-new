@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="footer-main__content">
                     <div class="footer__row">
-                        <div class="footer__column accordion" data-id="footer-main">
+                        <div class="footer__column accordion" data-id="footer-main-buyers">
                             <div class="accordion__item">
                                 <div class="accordion__header">
                                     <div class="accordion__btn js-accordion-btn">
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion" data-id="footer-main">
+                        <div class="footer__column accordion" data-id="footer-main-company">
                             <div class="accordion__item">
                                 <div class="accordion__header">
                                     <div class="accordion__btn js-accordion-btn">
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion" data-id="footer-main">
+                        <div class="footer__column accordion" data-id="footer-main-partnership">
                             <div class="accordion__item">
                                 <div class="accordion__header">
                                     <div class="accordion__btn js-accordion-btn">
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column" data-id="footer-main">
+                        <div class="footer__column">
                             <div class="footer__title">Нужна помощь?</div>
 
                             <div class="footer-contacts">
@@ -162,110 +162,6 @@
                             </div>
                         </div>
                     </div>
-
-					<?/*
-                <div class="footer__row">
-                    <div class="footer__column">
-                        <div class="footer__title">Популярные разделы</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Розетки и выключатели</a></li>
-                            <li><a class="link-light" href="javascript:;">Звонки и домофоны</a></li>
-                            <li><a class="link-light" href="javascript:;">Автоматические выключатели</a></li>
-                            <li><a class="link-light" href="javascript:;">УЗО</a></li>
-                            <li><a class="link-light" href="javascript:;">Дифференциальные автоматы</a></li>
-                            <li><a class="link-light" href="javascript:;">Кросс-модули</a></li>
-                            <li><a class="link-light" href="javascript:;">Кабель и провод</a></li>
-                            <li><a class="link-light" href="javascript:;">Светильники</a></li>
-                            <li><a class="link-light" href="javascript:;">Корпуса шкафов</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Покупателям</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Юридическим лицам</a></li>
-                            <li><a class="link-light" href="javascript:;">Физическим лицам</a></li>
-                            <li><a class="link-light" href="javascript:;">Оплата</a></li>
-                            <li><a class="link-light" href="javascript:;">Условия доставки</a></li>
-                            <li><a class="link-light" href="javascript:;">Гарантия и возврат</a></li>
-                            <li><a class="link-light" href="javascript:;">Акции</a></li>
-                            <li><a class="link-light" href="javascript:;">Распродажа</a></li>
-                            <li><a class="link-light" href="javascript:;">Контакты</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Информация</div>
-                        <ul class="list-reset footer__list">
-                            <li><a class="link-light" href="javascript:;">Справочник электрика</a></li>
-                            <li><a class="link-light" href="javascript:;">Вопросы и ответы</a></li>
-                            <li><a class="link-light" href="javascript:;">Новости</a></li>
-                            <li><a class="link-light" href="javascript:;">Статьи</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <div class="footer__title">Связаться с нами</div>
-                        <div class="footer-contacts">
-                            <div>
-                                <div class="footer-contacts__tel">
-                                    <a class="footer-contacts__number" href="tel:+74951183770">+7 (495) 118-37-70</a>
-                                    <a class="link-dashed link-gray" href="javascript:;">заказать звонок</a>
-                                </div>
-                            </div>
-                            <div>
-                                <a class="link" href="mailto:info@amperkin.ru"><span>info@amperkin.ru</span></a>
-                            </div>
-                            <div class="social">
-                                <div class="social__title">Мы в социальных сетях</div>
-                                <ul class="list-reset social__list">
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Вконтакте"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-vk"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Одноклассники"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-ok"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Telegram"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-tg"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Youtube"
-                                        >
-                                            <svg class="icon">
-                                                <use href="img/sprite.svg#soc-logo-yt"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                */?>
                 </div>
             </div>
         </div>

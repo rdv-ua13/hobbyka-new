@@ -302,6 +302,7 @@ application.prototype.initSliders = function () {
     if ($('.index-slider-wrapper').length) {
         const indexSliderDesktopSettings = new Swiper('.index-slider', {
             slidesPerView: 1,
+            autoHeight: true,
             effect: 'fade',
             watchOverflow: true,
             navigation: {
@@ -349,33 +350,15 @@ application.prototype.initReadmore = function () {
             }
 
             spoiler.eq(i).addClass('spoiler-' + i);
-            if ($(this).is('[data-spoiler-sidebar]')) {
-                $('.spoiler-' + i).readmore({
-                    collapsedHeight: currentElemHeight,
-                    moreLink: '<a class="link link-red link-tdu" href="javascript:;">\n' +
-                        '           <span class="text-content">' + currentMoreText + '</span>\n' +
-                        '       </a>',
-                    lessLink: '<a class="link link-red link-tdu" href="javascript:;">\n' +
-                        '           <span class="text-content">' + currentLessText + '</span>\n' +
-                        '       </a>',
-                });
-            } else {
-                $('.spoiler-' + i).readmore({
-                    collapsedHeight: currentElemHeight,
-                    moreLink: '<a class="link link-primary link-dropdown" href="javascript:;">\n' +
-                        '           <span class="text-content">' + currentMoreText + '</span>\n' +
-                    '               <svg class="icon icon-fill">\n' +
-                    '                   <use href="img/sprite.svg#chevron-down"></use>\n' +
-                    '               </svg>\n' +
-                        '       </a>',
-                    lessLink: '<a class="link link-primary link-dropdown" href="javascript:;">\n' +
-                        '           <span class="text-content">' + currentLessText + '</span>\n' +
-                    '               <svg class="icon icon-fill">\n' +
-                    '                   <use href="img/sprite.svg#chevron-up"></use>\n' +
-                    '               </svg>\n' +
-                        '       </a>',
-                });
-            }
+            $('.spoiler-' + i).readmore({
+                collapsedHeight: currentElemHeight,
+                moreLink: '<a class="link link-secondary link-tdu link-dashed" href="javascript:;">\n' +
+                    '           <span class="text-content">' + currentMoreText + '</span>\n' +
+                    '       </a>',
+                lessLink: '<a class="link link-secondary link-tdu link-dashed" href="javascript:;">\n' +
+                    '           <span class="text-content">' + currentLessText + '</span>\n' +
+                    '       </a>',
+            });
         });
     }
 };

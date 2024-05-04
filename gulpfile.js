@@ -105,6 +105,7 @@ const includedJsBuild = () => {
             "node_modules/flatpickr/dist/flatpickr.min.js",
             "node_modules/flatpickr/dist/l10n/ru.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/accordion-js/dist/accordion.js",
         ]
     )
         .pipe(dest(path.build.js))
@@ -128,6 +129,7 @@ const libsJsBuild = () => {
             "node_modules/flatpickr/dist/flatpickr.min.js",
             "node_modules/flatpickr/dist/l10n/ru.js",
             "node_modules/nouislider/dist/nouislider.js",
+            "node_modules/accordion-js/dist/accordion.js",
         ]
     )
         .pipe(concat("libs.min.js"))

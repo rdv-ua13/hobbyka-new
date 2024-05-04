@@ -29,6 +29,7 @@
     <script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->
     <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
+    <script defer src="js/accordion.js"></script>               <!-- accordion -->
 
     <script defer src="js/main.js"></script>
 
@@ -537,7 +538,7 @@
                             <!--start ui content-->
                             <button class="btn-reset btn btn-square">
                                 <svg class="icon icon-fill btn__icon">
-                                    <use href="img/sprite.svg#arrow-right"></use>
+                                    <use href="img/sprite.svg#arrow-left"></use>
                                 </svg>
                             </button>
                             <!--end ui content-->
@@ -620,7 +621,7 @@
                     </div>
                     <div class="ui-tooltip-set">
                         <div class="slider-out">
-                            <div class="tag-bar swiper" data-tag-bar-slider>
+                            <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
                                 <div class="swiper-wrapper tag-bar__list">
                                     <div class="swiper-slide tag-bar__item">
                                         <label class="tag-wrapper">

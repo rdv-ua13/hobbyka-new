@@ -30,6 +30,7 @@
     <script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->
     <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
+    <script defer src="js/accordion.js"></script>               <!-- accordion -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>
@@ -230,8 +231,8 @@
             </div>
 
             <div class="header-categories">
-                <div class="tag-wrapper slider-out">
-                    <div class="tag-bar swiper" data-tag-bar-slider>
+                <div class="tag-wrapper slider-out slider-out--desktop">
+                    <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
                         <div class="swiper-wrapper tag-bar__list">
                             <div class="swiper-slide tag-bar__item">
                                 <label class="tag-wrapper">

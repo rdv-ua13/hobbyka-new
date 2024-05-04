@@ -20,6 +20,37 @@
 				color: var(--gray3-color);
 			}
 		}
+		/*.ac {
+			margin-top: unset;
+			border: unset;
+			background-color: unset;
+
+			&-trigger {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				gap: 12px;
+				width: 100%;
+				line-height: 24px;
+				cursor: pointer;
+				transition: var(--transition);
+
+				&::after {
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 4px;
+					text-align: center;
+					min-width: 16px;
+					width: 16px;
+					min-height: 16px;
+					height: 16px;
+					background: url("data:image/svg+xml;base64,PHN2ZyBpZD0iY2hldnJvbi1kb3duIiB2aWV3Qm94PSIwIDAgMTIgMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8cGF0aCBkPSJNOC45NiA0LjA4OTk3SDUuODQ1SDMuMDRDMi41NiA0LjA4OTk3IDIuMzIgNC42Njk5NyAyLjY2IDUuMDA5OTdMNS4yNSA3LjU5OTk3QzUuNjY1IDguMDE0OTcgNi4zNCA4LjAxNDk3IDYuNzU1IDcuNTk5OTdMNy43NCA2LjYxNDk3TDkuMzQ1IDUuMDA5OTdDOS42OCA0LjY2OTk3IDkuNDQgNC4wODk5NyA4Ljk2IDQuMDg5OTdaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=");
+					transition: var(--transition);
+				}
+			}
+		}*/
 		.accordion {
 			.icon {
 				fill: var(--white-color);
@@ -246,6 +277,13 @@
 					font-size: 20px;
 				}
 			}
+			/*.ac {
+				.ac-panel {
+					.ac-text {
+						padding-top: 16px;
+					}
+				}
+			}*/
 			.accordion {
 				&__btn {
 					gap: 12px;
