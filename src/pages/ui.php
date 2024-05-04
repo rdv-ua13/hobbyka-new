@@ -132,16 +132,20 @@
                 <div class="ui-row">
 <pre>
 @media (min-width: 992px) {
-    .gap-xs { margin-bottom: 12px !important; }
-    .gap-sm { margin-bottom: 16px !important; }
-    .gap-md { margin-bottom: 24px !important; }
-    .gap-lg { margin-bottom: 32px !important; }
-    .gap-lg-plus { margin-bottom: 48px !important; }
-    .gap-xl { margin-bottom: 64px !important; }
+    .gap-xxxs { margin-bottom: 16px !important; }
+    .gap-xxs { margin-bottom: 20px !important; }
+    .gap-xs { margin-bottom: 24px !important; }
+    .gap-sm { margin-bottom: 32px !important; }
+    .gap-md { margin-bottom: 40px !important; }
+    .gap-lg { margin-bottom: 60px !important; }
+    .gap-xl { margin-bottom: 80px !important; }
 }
 @media (max-width: 991.98px) {
-    .gap-xs, .gap-sm { margin-bottom: 12px !important; }
-    .gap-md, .gap-lg, .gap-xl { margin-bottom: 16px !important; }
+    .gap-xxxs { margin-bottom: 8px !important; }
+    .gap-xxs { margin-bottom: 12px !important; }
+    .gap-xs { margin-bottom: 16px !important; }
+    .gap-sm { margin-bottom: 24px !important; }
+    .gap-md, .gap-lg, .gap-xl { margin-bottom: 32px !important; }
 }
 </pre>
                 </div>
@@ -543,6 +547,8 @@
                             </button>
                             <!--end ui content-->
                         </span>
+
+                        <?/*
                         <span class="tooltip" data-tippy-content="class='btn-reset btn btn-cart'">
                             <!--start ui content-->
                             <button class="btn-reset btn btn-cart">
@@ -569,7 +575,7 @@
                                 </svg>
                             </button>
                             <!--end ui content-->
-                        </span>
+                        </span>*/?>
                     </div>
                 </div>
             </div>
@@ -577,6 +583,7 @@
             <div class="ui-section">
                 <h3 class="h3 ui-title title-bold text-center">Controls</h3>
 
+                <?/*
                 <div class="ui-row">
                     <div class="ui-title">
                         <div class="fz-subtitle">chip</div>
@@ -613,7 +620,7 @@
                             <!--end ui content-->
                         </span>
                     </div>
-                </div>
+                </div>*/?>
 
                 <div class="ui-row">
                     <div class="ui-title">
@@ -644,7 +651,7 @@
                                                     name="UI[TAGS][]"
                                                     value=""
                                             >
-                                            <span class="tag tag--yellow">
+                                            <span class="tag">
                                                 <span>Текст</span>
                                             </span>
                                         </label>
@@ -657,10 +664,46 @@
                                                     name="UI[TAGS][]"
                                                     value=""
                                             >
-                                            <span class="tag tag--green">
-                                                <svg class="icon icon-fill icon-md">
-                                                    <use href="img/sprite.svg#sale"></use>
-                                                </svg>
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
                                                 <span>Текст</span>
                                             </span>
                                         </label>
@@ -705,139 +748,6 @@
                                                 </svg>
                                                 <span>Текст</span>
                                             </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--yellow">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--green">
-                                                <svg class="icon icon-fill icon-md">
-                                                    <use href="img/sprite.svg#sale"></use>
-                                                </svg>
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">tag small</div>
-                    </div>
-                    <div class="ui-tooltip-set">
-                        <div class="slider-out">
-                            <div class="tag-bar swiper" data-tag-bar-slider>
-                                <div class="swiper-wrapper tag-bar__list">
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Витамины</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Добавки</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Для фитнеса</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Для выносливости</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Коллаген</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Красота</span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS2][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--sm">Для силы</span>
                                         </label>
                                     </div>
                                 </div>
@@ -857,19 +767,24 @@
                             <a class="link link-primary" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
                         </span>
+                        <span class="tooltip" data-tippy-content="class='link link-invert'">
+                            <!--start ui content-->
+                            <a class="link link-invert" href="javascript:;">Витамины и добавки</a>
+                            <!--end ui content-->
+                        </span>
                         <span class="tooltip" data-tippy-content="class='link link-secondary'">
                             <!--start ui content-->
                             <a class="link link-secondary" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
                         </span>
-                        <span class="tooltip" data-tippy-content="class='link link-invert'" style="padding: 0 8px; background-color: var(--black-color);">
+                        <span class="tooltip" data-tippy-content="class='link link-tdu link-primary'">
                             <!--start ui content-->
-                            <a class="link link-invert" href="javascript:;">Витамины и добавки</a>
+                            <a class="link link-tdu link-primary" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
                         </span>
-                        <span class="tooltip" data-tippy-content="class='link link-tdu'">
+                        <span class="tooltip" data-tippy-content="class='link link-tdu link-dashed link-primary'">
                             <!--start ui content-->
-                            <a class="link link-tdu" href="javascript:;">Витамины и добавки</a>
+                            <a class="link link-tdu link-dashed link-primary" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
                         </span>
                         <span class="tooltip" data-tippy-content="class='link link-primary' (default)">
@@ -974,6 +889,7 @@
                 </div>
             </div>
 
+            <?/*
             <div class="ui-section">
                 <h3 class="h3 ui-title title-bold text-center">Content</h3>
 
@@ -998,25 +914,7 @@
                         </span>
                     </div>
                 </div>
-            </div>
-
-            <div class="ui-section">
-                <h3 class="h3 ui-title title-bold text-center">Hr</h3>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">class="hr"</div>
-                    </div>
-                    <div class="hr"></div>
-                </div>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">class="hr-logo"</div>
-                    </div>
-                    <div class="hr-logo"></div>
-                </div>
-            </div>
+            </div>*/?>
         </div>
 
         <br>

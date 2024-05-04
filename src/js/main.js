@@ -204,18 +204,18 @@ application.prototype.initDropdownMenu = function () {
 application.prototype.initBasicSlider = function () {
     if ($('.basic-slider-wrap').length) {
         const slider = $('[data-basic-slider]');
-        let spaceBetweenDesktop = 20;
+        let spaceBetweenDesktop = 24;
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
-            if ($(this).is('[data-basic-slider-gap]')) {
+            /*if ($(this).is('[data-basic-slider-gap]')) {
                 spaceBetweenDesktop = 40;
-            }
+            }*/
 
             const basicSliderSetting = {
                 slidesPerView: 'auto',
                 slidesPerGroup: 1,
-                spaceBetween: 12,
+                spaceBetween: 16,
                 direction: 'horizontal',
                 navigation: {
                     nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
@@ -313,6 +313,25 @@ application.prototype.initSliders = function () {
                 el: ".index-slider .swiper-pagination",
                 clickable: true,
             },
+        });
+    }
+
+    if ($('[data-projects-slider]').length) {
+        const projectSlider = new Swiper('[data-projects-slider]', {
+            slidesPerView: 'auto',
+            slidesPerGroup: 1,
+            spaceBetween: 16,
+            direction: 'horizontal',
+            navigation: {
+                nextEl: '.hbk-projects__view .swiper-button-next',
+                prevEl: '.hbk-projects__view .swiper-button-prev',
+            },
+            breakpoints: {
+                992: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                },
+            }
         });
     }
 };

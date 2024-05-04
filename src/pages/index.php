@@ -248,48 +248,286 @@
 
 <div class="gap-xl">
     <div class="container">
-        <div class="pre-footer newsletter">
-            <div class="container pre-footer__container">
-                <div class="pre-footer__descr newsletter__descr">
-                    <div class="pre-footer__descr-pic newsletter__descr-pic">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/mail-glass.svg#mail-glass"
-                                width="80"
-                                height="80"
-                                alt="Изображение блока"
-                        >
-                    </div>
-                    <div class="pre-footer__descr-info newsletter__descr-info">
-                        <div class="h4 fw-bold">Подпишитесь на рассылку</div>
-                        <div class="pre-footer__descr-text newsletter__descr-text">Узнавайте первыми о новинках, акциях и скидках</div>
+        <div class="hbk-own-production bg-lightgray">
+            <div class="gap-xs">
+                <div class="slider-out">
+                    <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
+                        <div class="swiper-wrapper tag-bar__list">
+                            <div class="swiper-slide tag-bar__item">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="HBKOWNPROD[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--border">
+                                        <span>Собственное производство полного цикла</span>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="pre-footer__act newsletter__act">
-                    <div class="pre-footer__subscribe newsletter__subscribe">
-                        <form id="" method="" action="javascript:;">
-                            <div class="input-wrapper input-wrapper-split has-icon-l">
-                                <input
-                                        id="subscribe-newsletter"
-                                        class="input-reset input"
-                                        type="text"
-                                        name=""
-                                        value=""
-                                        placeholder="Введите ваш email"
-                                >
-                                <label for="subscribe-newsletter" class="input-icon input-icon-l">
-                                    <svg class="icon icon-md icon-fill">
-                                        <use href="img/sprite.svg#email"></use>
-                                    </svg>
-                                </label>
-                                <button class="btn-reset btn btn-md btn-secondary" type="submit">
-                                    <span class="btn__text">Подписаться</span>
-                                </button>
-                            </div>
-                        </form>
-                        <div class="pre-footer__subscribe-caption newsletter__subscribe-caption fz-caption caption-color">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link link-tdu link-secondary" href="javascript:;">Политикой конфиденциальности</a> и ознакомлен с <a class="link link-tdu link-secondary" href="javascript:;">Политикой в отношении обработки персональных данных</a></div>
+            </div>
+            <div class="gap-lg">
+                <div class="hbk-own-production__descr">
+                    <div class="hbk-own-production__descr-item hbk-own-production__heading h2">
+                        «Хоббика» — российский производитель <span class="gray2-color">садово-парковой мебели</span>
                     </div>
+                    <div class="hbk-own-production__descr-item hbk-own-production__content">
+                        <p>Мы предлагаем вам продукцию из чугуна, стали, алюминия, а также из лиственницы и сосны. Из этих материалов мы производим скамейки, урны, и другую уличную мебель для общественных и частных территорий.</p>
+                        <p class="gray2-color">Собственное производство позволяет быть уверенными в качестве продукции, а также создавать что-то как серийно, так и по индивидуальному заказу</p>
+                        <a class="link link-tdu link-primary" href="javascript:;">Подробнее о производстве</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-out basic-slider-wrap">
+                <div class="slider-out-content basic-slider swiper" data-basic-slider>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/production-1.png"
+                                    width="272"
+                                    height="210"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/production-2.png"
+                                    width="272"
+                                    height="210"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/production-3.png"
+                                    width="272"
+                                    height="210"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/production-4.png"
+                                    width="272"
+                                    height="210"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-navigation dark-theme">
+                    <div class="swiper-button-next">
+                        <button class="btn-reset btn btn-square">
+                            <svg class="icon icon-fill icon-sm btn__icon">
+                                <use href="img/sprite.svg#arrow-left"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <button class="btn-reset btn btn-square">
+                            <svg class="icon icon-fill icon-sm btn__icon">
+                                <use href="img/sprite.svg#arrow-left"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="hbk-projects">
+            <div class="hbk-projects__descr">
+                <div class="gap-xs">
+                    <div class="slider-out">
+                        <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
+                            <div class="swiper-wrapper tag-bar__list">
+                                <div class="swiper-slide tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="HBKPROJECTS[TAGS][]"
+                                                value=""
+                                        >
+                                        <span class="tag tag--border">
+                                        <span>Наши работы</span>
+                                    </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gap-xs hbk-projects__heading h3">Проекты с продукцией компании «Хоббика»</div>
+                <div class="gap-md hbk-projects__content">
+                    <p class="gray2-color">Проекты блаугоустройства, индивидуальные проекты, парки, жилые комплексы, участие в форумах и другие проекты компани</p>
+                </div>
+                <a class="link link-tdu link-primary" href="javascript:;">Смотреть все проекты</a>
+            </div>
+            <div class="hbk-projects__view">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="slider-out-content basic-slider swiper" data-projects-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/project-1.png"
+                                        width="736"
+                                        height="480"
+                                        alt="Изображение блока"
+                                >
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/project-1.png"
+                                        width="736"
+                                        height="480"
+                                        alt="Изображение блока"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next">
+                            <button class="btn-reset btn btn-square">
+                                <svg class="icon icon-fill icon-sm btn__icon">
+                                    <use href="img/sprite.svg#arrow-left"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <button class="btn-reset btn btn-square">
+                                <svg class="icon icon-fill icon-sm btn__icon">
+                                    <use href="img/sprite.svg#arrow-left"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="hbk-advantages">
+            <div class="hbk-advantages__item">
+                <div class="hbk-advantages__view">
+                    <div class="hbk-advantages__pic">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#stack"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hbk-advantages__descr">
+                    <div class="hbk-advantages__title fz-md">Широкий ассортимент и собственное производство</div>
+                    <div class="hbk-advantages__subtitle">В нашем ассортименте представлено оборудование как муниципального, так и индивидуального назначения</div>
+                </div>
+            </div>
+            <div class="hbk-advantages__item">
+                <div class="hbk-advantages__view">
+                    <div class="hbk-advantages__pic">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#lovely"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hbk-advantages__descr">
+                    <div class="hbk-advantages__title fz-md">Гарантийное обслуживание продукции</div>
+                    <div class="hbk-advantages__subtitle">Мы создали собственный сервисный центр для гарантийного и постгарантийного обслуживания</div>
+                </div>
+            </div>
+            <div class="hbk-advantages__item">
+                <div class="hbk-advantages__view">
+                    <div class="hbk-advantages__pic">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#wallet"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hbk-advantages__descr">
+                    <div class="hbk-advantages__title fz-md">Удобные формы оплаты</div>
+                    <div class="hbk-advantages__subtitle">Оплачивайте заказ как вам удобно: безналичный расчет, наличные, банковские карты или в кредит</div>
+                </div>
+            </div>
+            <div class="hbk-advantages__item">
+                <div class="hbk-advantages__view">
+                    <div class="hbk-advantages__pic">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#delivery"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hbk-advantages__descr">
+                    <div class="hbk-advantages__title fz-md">Доставка по всей России</div>
+                    <div class="hbk-advantages__subtitle">Доставим груз в любую точку России транспортными компаниями: Деловые Линии, Байкал-Сервис, ЖелДорЭкспедиция, ПЭК</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="hbk-newsletter">
+            <div class="hbk-newsletter__descr">
+                <div class="hbk-newsletter__descr-pic">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/mail-glass.svg#mail-glass"
+                            width="80"
+                            height="80"
+                            alt="Изображение блока"
+                    >
+                </div>
+                <div class="hbk-newsletter__descr-info">
+                    <div class="h4 fw-bold">Подпишитесь на рассылку</div>
+                    <div class="hbk-newsletter__descr-text">Узнавайте первыми о новинках, акциях и скидках</div>
+                </div>
+            </div>
+            <div class="hbk-newsletter__act">
+                <div class="hbk-newsletter__subscribe">
+                    <form id="" method="" action="javascript:;">
+                        <div class="input-wrapper input-wrapper-split has-icon-l">
+                            <input
+                                    id="subscribe-newsletter"
+                                    class="input-reset input"
+                                    type="text"
+                                    name=""
+                                    value=""
+                                    placeholder="Введите ваш email"
+                            >
+                            <label for="subscribe-newsletter" class="input-icon input-icon-l">
+                                <svg class="icon icon-md icon-fill">
+                                    <use href="img/sprite.svg#email"></use>
+                                </svg>
+                            </label>
+                            <button class="btn-reset btn btn-md btn-secondary" type="submit">
+                                <span class="btn__text">Подписаться</span>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="hbk-newsletter__subscribe-caption fz-caption caption-color">Даю согласие на обработку моих персональных данных. Соглашаюсь с <a class="link link-tdu link-secondary" href="javascript:;">Политикой конфиденциальности</a> и ознакомлен с <a class="link link-tdu link-secondary" href="javascript:;">Политикой в отношении обработки персональных данных</a></div>
                 </div>
             </div>
         </div>
