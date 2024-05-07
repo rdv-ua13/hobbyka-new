@@ -5,11 +5,11 @@
             <div class="container">
                 <div class="footer-main__content">
                     <div class="footer__row">
-                        <div class="footer__column accordion-container" data-fm-acc="0">
+                        <div class="footer__column accordion-container">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Покупателям11</span>
+                                        <span class="footer__title">Покупателям</span>
                                     </button>
                                 </div>
                                 <div class="ac-panel">
@@ -27,11 +27,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion-container" data-fm-acc="1">
+                        <div class="footer__column accordion-container">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Компания «Хоббика»22</span>
+                                        <span class="footer__title">Компания «Хоббика»</span>
                                     </button>
                                 </div>
                                 <div class="ac-panel">
@@ -50,11 +50,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion-container" data-fm-acc="2">
+                        <div class="footer__column accordion-container">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Партнерство33</span>
+                                        <span class="footer__title">Партнерство</span>
                                     </button>
                                 </div>
                                 <div class="ac-panel">

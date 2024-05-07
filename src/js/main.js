@@ -377,19 +377,23 @@ application.prototype.initSliders = function () {
 
     if ($('[data-banner-offer-slider]').length) {
         const bannerOfferSlider = new Swiper('[data-banner-offer-slider]', {
-            slidesPerView: 'auto',
-            spaceBetween: 24,
-            direction: 'horizontal',
+            slidesPerView: 1,
+            autoHeight: true,
+            effect: 'fade',
+            watchOverflow: true,
             navigation: {
                 nextEl: '.banner-offer .swiper-button-next',
                 prevEl: '.banner-offer .swiper-button-prev',
             },
+            pagination: {
+                el: '.banner-offer .swiper-pagination',
+                clickable: true,
+            },
             breakpoints: {
                 992: {
-                    spaceBetween: 64,
-                    scrollbar: {
-                        el: ".banner-offer .swiper-scrollbar",
-                        draggable: true,
+                    pagination: {
+                        el: '',
+                        clickable: false,
                     }
                 },
             }

@@ -225,6 +225,8 @@
 			}*/
 			.ac {
 				&-trigger {
+					cursor: text;
+
 					&::after {
 						content: none;
 					}
