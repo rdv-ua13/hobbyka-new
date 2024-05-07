@@ -628,7 +628,7 @@
                     </div>
                     <div class="ui-tooltip-set">
                         <div class="slider-out">
-                            <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
+                            <div class="tag-bar swiper" data-tag-bar-slider>
                                 <div class="swiper-wrapper tag-bar__list">
                                     <div class="swiper-slide tag-bar__item">
                                         <label class="tag-wrapper">

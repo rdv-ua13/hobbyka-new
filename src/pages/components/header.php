@@ -231,9 +231,9 @@
             </div>
 
             <div class="header-categories">
-                <div class="tag-wrapper slider-out slider-out--desktop">
-                    <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
-                        <div class="swiper-wrapper tag-bar__list">
+                <div class="tag-wrapper slider-out basic-slider-wrap">
+                    <div class="tag-bar basic-slider swiper" data-tag-bar-slider>
+                        <div class="swiper-wrapper">
                             <div class="swiper-slide tag-bar__item">
                                 <label class="tag-wrapper">
                                     <input

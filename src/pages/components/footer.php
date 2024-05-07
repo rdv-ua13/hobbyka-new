@@ -5,6 +5,74 @@
             <div class="container">
                 <div class="footer-main__content">
                     <div class="footer__row">
+                        <div class="footer__column accordion-container" data-fm-acc="0">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="footer__title">Покупателям11</span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset footer__list">
+                                            <li><a class="link" href="javascript:;">Оплата</a></li>
+                                            <li><a class="link" href="javascript:;">Доставка</a></li>
+                                            <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
+                                            <li><a class="link" href="javascript:;">Гарантия на продукцию</a></li>
+                                            <li><a class="link" href="javascript:;">Где посмотреть</a></li>
+                                            <li><a class="link" href="javascript:;">Материалы для скачивания</a></li>
+                                            <li><a class="link" href="javascript:;">Программа лояльности</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column accordion-container" data-fm-acc="1">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="footer__title">Компания «Хоббика»22</span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset footer__list">
+                                            <li><a class="link" href="javascript:;">История компании</a></li>
+                                            <li><a class="link" href="javascript:;">Наше производство</a></li>
+                                            <li><a class="link" href="javascript:;">Сертификаты</a></li>
+                                            <li><a class="link" href="javascript:;">Наши партнеры</a></li>
+                                            <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
+                                            <li><a class="link" href="javascript:;">Пресса о нас</a></li>
+                                            <li><a class="link" href="javascript:;">Наши работы</a></li>
+                                            <li><a class="link" href="javascript:;">Контакты</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column accordion-container" data-fm-acc="2">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="footer__title">Партнерство33</span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset footer__list">
+                                            <li><a class="link" href="javascript:;">Частным клиентам</a></li>
+                                            <li><a class="link" href="javascript:;">Гос. учреждениям</a></li>
+                                            <li><a class="link" href="javascript:;">Гос. компаниям</a></li>
+                                            <li><a class="link" href="javascript:;">Паркам</a></li>
+                                            <li><a class="link" href="javascript:;">Застройщикам</a></li>
+                                            <li><a class="link" href="javascript:;">Пароектировщикам / Архитекторам</a></li>
+                                            <li><a class="link" href="javascript:;">Производство урн</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<?/*
                         <div class="footer__column accordion" data-id="footer-main-buyers">
                             <div class="accordion__item">
                                 <div class="accordion__header">
@@ -87,6 +155,7 @@
                                 </div>
                             </div>
                         </div>
+                        */?>
                         <div class="footer__column">
                             <div class="footer__title">Нужна помощь?</div>
 

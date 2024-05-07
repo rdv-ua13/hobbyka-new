@@ -108,139 +108,141 @@
     </div>
 </div>
 
-
 <div class="gap-xl">
     <div class="container">
-        <div class="slider-out slider-out--desktop product-category-wrapper">
-            <div class="slider-out-content product-category">
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-1.png"
-                                width="351"
-                                height="233"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Детское игровое обрудование</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Детские игровые комплексы,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Горки,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Качели,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Детские домики,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Песочницы</a>
-                            <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 7 категорий</a>
+        <div class="slider-out basic-slider-wrap">
+            <div class="product-category basic-slider swiper" data-product-category-slider>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-1.png"
+                                    width="351"
+                                    height="233"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Детское игровое обрудование</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Детские игровые комплексы,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Горки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Качели,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Детские домики,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Песочницы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 7 категорий</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-2.png"
+                                    width="265"
+                                    height="159"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a><br>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-3.png"
+                                    width="230"
+                                    height="157"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-4.png"
+                                    width="135"
+                                    height="132"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Урны для мусора</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Металлические</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 3 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-2.png"
+                                    width="265"
+                                    height="159"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-3.png"
+                                    width="230"
+                                    height="157"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-2.png"
-                                width="265"
-                                height="159"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
-                            <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-3.png"
-                                width="230"
-                                height="157"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-4.png"
-                                width="135"
-                                height="132"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Урны для мусора</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Металлические</a>
-                            <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 3 категории</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-2.png"
-                                width="265"
-                                height="159"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
-                            <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-out-content__item product-category__item">
-                    <a class="product-category__view" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/category-3.png"
-                                width="230"
-                                height="157"
-                                alt="Изображение блока"
-                        >
-                    </a>
-                    <div class="product-category__descr">
-                        <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
-                        <div class="list-reset product-category__section">
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
-                            <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
-                        </div>
-                    </div>
-                </div>
+                <div class="swiper-scrollbar"></div>
             </div>
         </div>
     </div>
@@ -251,7 +253,7 @@
         <div class="hbk-own-production bg-lightgray">
             <div class="gap-xs">
                 <div class="slider-out">
-                    <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
+                    <div class="tag-bar swiper" data-tag-bar-slider>
                         <div class="swiper-wrapper tag-bar__list">
                             <div class="swiper-slide tag-bar__item">
                                 <label class="tag-wrapper">
@@ -283,7 +285,7 @@
                 </div>
             </div>
             <div class="slider-out basic-slider-wrap">
-                <div class="slider-out-content basic-slider swiper" data-basic-slider>
+                <div class="basic-slider swiper" data-basic-slider>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img
@@ -354,7 +356,7 @@
             <div class="hbk-projects__descr">
                 <div class="gap-xs">
                     <div class="slider-out">
-                        <div class="tag-bar slider-out-content swiper" data-tag-bar-slider>
+                        <div class="tag-bar swiper" data-tag-bar-slider>
                             <div class="swiper-wrapper tag-bar__list">
                                 <div class="swiper-slide tag-bar__item">
                                     <label class="tag-wrapper">
@@ -381,7 +383,7 @@
             </div>
             <div class="hbk-projects__view">
                 <div class="slider-out basic-slider-wrap">
-                    <div class="slider-out-content basic-slider swiper" data-projects-slider>
+                    <div class="basic-slider swiper" data-projects-slider>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img
@@ -481,6 +483,146 @@
                     <div class="hbk-advantages__title fz-md">Доставка по всей России</div>
                     <div class="hbk-advantages__subtitle">Доставим груз в любую точку России транспортными компаниями: Деловые Линии, Байкал-Сервис, ЖелДорЭкспедиция, ПЭК</div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gap-xl">
+    <div class="container">
+        <div class="slider-out basic-slider-wrap">
+            <div class="banner-offer basic-slider swiper" data-banner-offer-slider>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-1.png"
+                                    width="351"
+                                    height="233"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Детское игровое обрудование</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Детские игровые комплексы,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Горки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Качели,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Детские домики,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Песочницы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 7 категорий</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-2.png"
+                                    width="265"
+                                    height="159"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a><br>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-3.png"
+                                    width="230"
+                                    height="157"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-4.png"
+                                    width="135"
+                                    height="132"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Урны для мусора</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Металлические</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 3 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-2.png"
+                                    width="265"
+                                    height="159"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Дачная и садовая мебель</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые скамейки,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Кресла и стулья,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Садовые столы</a>
+                                <a class="product-category__section-item product-category__section-item--more link link-secondary" href="javascript:;">и еще 2 категории</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-category__item">
+                        <a class="product-category__view" href="javascript:;">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/category-3.png"
+                                    width="230"
+                                    height="157"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                        <div class="product-category__descr">
+                            <a class="product-category__heading link link-tdu link-primary" href="javascript:;">Скамейки</a>
+                            <div class="list-reset product-category__section">
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Парковые и уличные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Современные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Чугунные,</a>
+                                <a class="product-category__section-item link link-primary" href="javascript:;">Стальные</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
             </div>
         </div>
     </div>
