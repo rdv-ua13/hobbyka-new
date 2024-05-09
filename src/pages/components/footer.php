@@ -72,90 +72,6 @@
                                 </div>
                             </div>
                         </div>
-<?/*
-                        <div class="footer__column accordion" data-id="footer-main-buyers">
-                            <div class="accordion__item">
-                                <div class="accordion__header">
-                                    <div class="accordion__btn js-accordion-btn">
-                                        <div class="accordion__header-title footer__title">Покупателям</div>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="accordion__collapse collapsed">
-                                    <div class="accordion__collapse-content">
-                                        <div class="accordion__collapse-item">
-                                            <ul class="list-reset footer__list">
-                                                <li><a class="link" href="javascript:;">Оплата</a></li>
-                                                <li><a class="link" href="javascript:;">Доставка</a></li>
-                                                <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
-                                                <li><a class="link" href="javascript:;">Гарантия на продукцию</a></li>
-                                                <li><a class="link" href="javascript:;">Где посмотреть</a></li>
-                                                <li><a class="link" href="javascript:;">Материалы для скачивания</a></li>
-                                                <li><a class="link" href="javascript:;">Программа лояльности</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer__column accordion" data-id="footer-main-company">
-                            <div class="accordion__item">
-                                <div class="accordion__header">
-                                    <div class="accordion__btn js-accordion-btn">
-                                        <div class="accordion__header-title footer__title">Компания «Хоббика»</div>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="accordion__collapse collapsed">
-                                    <div class="accordion__collapse-content">
-                                        <div class="accordion__collapse-item">
-                                            <ul class="list-reset footer__list">
-                                                <li><a class="link" href="javascript:;">История компании</a></li>
-                                                <li><a class="link" href="javascript:;">Наше производство</a></li>
-                                                <li><a class="link" href="javascript:;">Сертификаты</a></li>
-                                                <li><a class="link" href="javascript:;">Наши партнеры</a></li>
-                                                <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
-                                                <li><a class="link" href="javascript:;">Пресса о нас</a></li>
-                                                <li><a class="link" href="javascript:;">Наши работы</a></li>
-                                                <li><a class="link" href="javascript:;">Контакты</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer__column accordion" data-id="footer-main-partnership">
-                            <div class="accordion__item">
-                                <div class="accordion__header">
-                                    <div class="accordion__btn js-accordion-btn">
-                                        <div class="accordion__header-title footer__title">Партнерство</div>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="accordion__collapse collapsed">
-                                    <div class="accordion__collapse-content">
-                                        <div class="accordion__collapse-item">
-                                            <ul class="list-reset footer__list">
-                                                <li><a class="link" href="javascript:;">Частным клиентам</a></li>
-                                                <li><a class="link" href="javascript:;">Гос. учреждениям</a></li>
-                                                <li><a class="link" href="javascript:;">Гос. компаниям</a></li>
-                                                <li><a class="link" href="javascript:;">Паркам</a></li>
-                                                <li><a class="link" href="javascript:;">Застройщикам</a></li>
-                                                <li><a class="link" href="javascript:;">Пароектировщикам / Архитекторам</a></li>
-                                                <li><a class="link" href="javascript:;">Производство урн</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        */?>
                         <div class="footer__column">
                             <div class="footer__title">Нужна помощь?</div>
 
@@ -294,8 +210,8 @@
         </div>
     </footer>
 
-	<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
+	<?/*php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
 
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>*/?>
 </body>
 </html>
