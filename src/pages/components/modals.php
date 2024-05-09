@@ -62,7 +62,7 @@
                 </div>
                 <div class="form__field-btn form__field-btn--single">
                     <button class="btn-reset btn btn-primary" type="submit">
-                        <span class="btn__text">Войти</span>
+                        <span class="text-content">Войти</span>
                     </button>
                 </div>
             </form>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="form__field-btn form__field-btn--single">
                     <button class="btn-reset btn btn-primary" type="submit">
-                        <span class="btn__text">Зарегистрироваться</span>
+                        <span class="text-content">Зарегистрироваться</span>
                     </button>
                 </div>
                 <div class="form__field-agree">
@@ -244,7 +244,7 @@
                             data-fancybox
                             data-src="#modal-restore-final"
                     >
-                        <span class="btn__text">Отправить пароль</span>
+                        <span class="text-content">Отправить пароль</span>
                     </button>
                 </div>
             </form>
@@ -307,7 +307,7 @@
                             type="submit"
                             data-notice="compare"
                     >
-                        <span class="btn__text">Добавить в смету</span>
+                        <span class="text-content">Добавить в смету</span>
                     </button>
                 </div>
             </form>
@@ -349,7 +349,7 @@
                         >
                     </div>
                     <button class="btn-reset btn btn-primary" type="button" data-share-link-btn>
-                        <span class="btn__text">Копировать</span>
+                        <span class="text-content">Копировать</span>
                     </button>
                 </div>
             </div>
@@ -400,7 +400,7 @@
                         >
                     </div>
                     <button class="btn-reset btn btn-primary" type="button" data-share-link-btn>
-                        <span class="btn__text">Копировать</span>
+                        <span class="text-content">Копировать</span>
                     </button>
                 </div>
             </div>
@@ -446,7 +446,7 @@
                                 placeholder="Найти город..."
                         >
                         <button class="btn-reset btn btn-link input-delete-btn">
-                            <svg class="icon btn__icon icon-xs">
+                            <svg class="icon icon-xs">
                                 <use href="img/sprite.svg#cross"></use>
                             </svg>
                         </button>
@@ -458,22 +458,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Москва</span>
+                                        <span class="text-content">Москва</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
                                     <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Санкт-петербург</span>
+                                        <span class="text-content">Санкт-петербург</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
                                     <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Казань</span>
+                                        <span class="text-content">Казань</span>
                                     </button>
                                 </div>
                                 <div class="swiper-slide">
                                     <button class="btn-reset btn btn-mini btn-b-light">
-                                        <span class="btn__text">Воронеж</span>
+                                        <span class="text-content">Воронеж</span>
                                     </button>
                                 </div>
                             </div>
@@ -767,7 +767,7 @@
                 <div class="form__field-btn form__field-btn--single">
                     <?/* // todo (@Masterkov): временно data-fancybox. Поменять на type="submit" */?>
                     <button class="btn-reset btn btn-primary" type="button" data-fancybox data-src="#modal-review-success">
-                        <span class="btn__text">Отправить отзыв</span>
+                        <span class="text-content">Отправить отзыв</span>
                     </button>
                 </div>
                 <div class="form__field-ps">
@@ -812,10 +812,10 @@
 
             <div class="btn-g modal-cart-delete__btn-g">
                 <button class="btn-reset btn btn-primary">
-                    <span class="btn__text">Удалить</span>
+                    <span class="text-content">Удалить</span>
                 </button>
                 <button class="btn-reset btn btn-light">
-                    <span class="btn__text">Отменить</span>
+                    <span class="text-content">Отменить</span>
                 </button>
             </div>
         </div>
@@ -838,10 +838,10 @@
                     </div>
                     <div class="modal-order-promocode__btn">
                         <button class="btn-reset btn btn-primary switch-content" data-open-promocode>
-                            <span class="btn__text text-default">открыть промокод</span>
-                            <span class="btn__text text-selected">bironi10sale</span>
+                            <span class="text-content text-default">открыть промокод</span>
+                            <span class="text-content text-selected">bironi10sale</span>
                             <span class="icon-selected tooltip" data-tippy-content="Скопировать промокод">
-                                <svg class="icon btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#copy"></use>
                                 </svg>
                             </span>
@@ -855,10 +855,10 @@
                     </div>
                     <div class="modal-order-promocode__btn">
                         <button class="btn-reset btn btn-primary switch-content" data-open-promocode>
-                            <span class="btn__text text-default">открыть промокод</span>
-                            <span class="btn__text text-selected">bironi15sale</span>
+                            <span class="text-content text-default">открыть промокод</span>
+                            <span class="text-content text-selected">bironi15sale</span>
                             <span class="icon-selected tooltip" data-tippy-content="Скопировать промокод">
-                                <svg class="icon btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#copy"></use>
                                 </svg>
                             </span>
@@ -872,10 +872,10 @@
                     </div>
                     <div class="modal-order-promocode__btn">
                         <button class="btn-reset btn btn-primary switch-content" data-open-promocode>
-                            <span class="btn__text text-default">открыть промокод</span>
-                            <span class="btn__text text-selected">bironi20sale</span>
+                            <span class="text-content text-default">открыть промокод</span>
+                            <span class="text-content text-selected">bironi20sale</span>
                             <span class="icon-selected tooltip" data-tippy-content="Скопировать промокод">
-                                <svg class="icon btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#copy"></use>
                                 </svg>
                             </span>
@@ -889,10 +889,10 @@
                     </div>
                     <div class="modal-order-promocode__btn">
                         <button class="btn-reset btn btn-primary switch-content" data-open-promocode>
-                            <span class="btn__text text-default">открыть промокод</span>
-                            <span class="btn__text text-selected">bironi25sale</span>
+                            <span class="text-content text-default">открыть промокод</span>
+                            <span class="text-content text-selected">bironi25sale</span>
                             <span class="icon-selected tooltip" data-tippy-content="Скопировать промокод">
-                                <svg class="icon btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#copy"></use>
                                 </svg>
                             </span>

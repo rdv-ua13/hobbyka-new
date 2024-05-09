@@ -162,10 +162,10 @@
 
                 <div class="header-catalog">
                     <a class="btn-reset btn btn-primary" href="javascript:;">
-                        <svg class="icon icon-fill btn__icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#catalog"></use>
                         </svg>
-                        <span class="btn__text">Каталог</span>
+                        <span class="text-content">Каталог</span>
                     </a>
 
                     <div class="header-search">
@@ -194,36 +194,36 @@
                         <li>
                             <button class="btn-reset btn btn-header">
                                 <span class="btn-header__count">16</span>
-                                <svg class="icon icon-fill btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-heart"></use>
                                 </svg>
-                                <span class="btn__text">Избранное</span>
+                                <span class="text-content">Избранное</span>
                             </button>
                         </li>
                         <li>
                             <button class="btn-reset btn btn-header">
                                 <span class="btn-header__count">2</span>
-                                <svg class="icon icon-fill btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-chart"></use>
                                 </svg>
-                                <span class="btn__text">Сравнить</span>
+                                <span class="text-content">Сравнить</span>
                             </button>
                         </li>
                         <li>
                             <button class="btn-reset btn btn-header" data-fancybox data-src="#modal-auth">
-                                <svg class="icon icon-fill btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-user"></use>
                                 </svg>
-                                <span class="btn__text">Войти</span>
+                                <span class="text-content">Войти</span>
                             </button>
                         </li>
                         <li>
                             <button class="btn-reset btn btn-header">
                                 <span class="btn-header__count">2</span>
-                                <svg class="icon icon-fill btn__icon">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-cart"></use>
                                 </svg>
-                                <span class="btn__text price">152 800 ₽</span>
+                                <span class="text-content price">152 800 ₽</span>
                             </button>
                         </li>
                     </ul>
@@ -434,10 +434,10 @@
         <div class="mobile-menu-container">
             <div class="mobile-menu-login">
                 <button class="btn-reset btn btn-md btn-secondary" data-fancybox data-src="#modal-auth">
-                    <span class="btn__text">Войти</span>
+                    <span class="text-content">Войти</span>
                 </button>
                 <button class="btn-reset btn btn-md btn-light" data-fancybox data-src="#modal-reg">
-                    <span class="btn__text">Регистрация</span>
+                    <span class="text-content">Регистрация</span>
                 </button>
             </div>
         </div>
@@ -449,44 +449,44 @@
         <ul class="list-reset mobile-menu-panel__list">
             <li>
                 <a class="btn-reset btn btn-header active" href="javascript:;">
-                    <svg class="icon icon-fill btn__icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-home"></use>
                     </svg>
-                    <span class="btn__text">Главная</span>
+                    <span class="text-content">Главная</span>
                 </a>
             </li>
             <li>
                 <a class="btn-reset btn btn-header" href="javascript:;">
-                    <svg class="icon icon-fill btn__icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-catalog"></use>
                     </svg>
-                    <span class="btn__text">Каталог</span>
+                    <span class="text-content">Каталог</span>
                 </a>
             </li>
             <li>
                 <button class="btn-reset btn btn-header">
                     <span class="btn-header__count">16</span>
-                    <svg class="icon icon-fill btn__icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-heart"></use>
                     </svg>
-                    <span class="btn__text">Избранное</span>
+                    <span class="text-content">Избранное</span>
                 </button>
             </li>
             <li>
                 <button class="btn-reset btn btn-header">
                     <span class="btn-header__count">2</span>
-                    <svg class="icon icon-fill btn__icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-cart"></use>
                     </svg>
-                    <span class="btn__text price">152 800 ₽</span>
+                    <span class="text-content price">152 800 ₽</span>
                 </button>
             </li>
             <li>
                 <button class="btn-reset btn btn-header" data-fancybox data-src="#modal-auth">
-                    <svg class="icon icon-fill btn__icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-user"></use>
                     </svg>
-                    <span class="btn__text">Войти</span>
+                    <span class="text-content">Войти</span>
                 </button>
             </li>
         </ul>
