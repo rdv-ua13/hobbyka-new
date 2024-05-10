@@ -298,12 +298,16 @@
 	.header {
 		position: fixed;
 
+		&-nav {
+			padding-bottom: 10px;
+		}
 		&-profile {
 			margin-left: auto;
 		}
 
 		&.scrolled {
 			box-shadow: var(--shadow2);
+			transition: var(--transition);
 		}
 	}
 

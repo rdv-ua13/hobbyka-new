@@ -80,9 +80,9 @@ application.prototype.initHeaderScroll = function () {
         let sensDistance = 1;
 
         if (window.matchMedia('(min-width: 1200px)').matches) {
-            sensDistance = 60;
+            sensDistance = 50;
         } else if (window.matchMedia('(min-width: 992px) and (max-width: 1199.98px)').matches) {
-            sensDistance = 24;
+            sensDistance = 14;
         }
 
         if ($(window).scrollTop() > sensDistance) {
