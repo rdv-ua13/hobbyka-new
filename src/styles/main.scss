@@ -592,11 +592,16 @@
 }
 
 .product-slider {
-	z-index: 15;
 	overflow: visible;
 }
 @media (min-width: 992px) {
 	.product-slider {
+		.swiper-slide {
+			&:hover {
+				z-index: 1;
+			}
+		}
+
 		.swiper-navigation {
 			top: 143px;
 		}
