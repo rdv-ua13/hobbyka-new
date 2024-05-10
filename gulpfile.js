@@ -32,7 +32,6 @@ const path = {
         js:                 "build/js/",
         styles:             "build/css/",
         img:                "build/img/",
-        svg:                "build/img/svg/",
     },
     src: {
         php:                "src/pages/**/*.php",
@@ -179,54 +178,7 @@ const svgSprites = () => {
         .pipe(dest(path.build.img));
 };
 
-// Подготовка иконок (удаление атрибутов)
-const svgPreparation = () => {
-    return src(path.src.svg)
-        .pipe(
-            svgmin({
-                js2svg: {
-                    pretty: true,
-                },
-            })
-        )
-        /*.pipe(
-            cheerio({
-                run: function ($) {
-                    $("[fill]").removeAttr("fill");
-                    $("[stroke]").removeAttr("stroke");
-                    $("[style]").removeAttr("style");
-                },
-                parserOptions: {
-                    xmlMode: true
-                },
-            })
-        )*/
-        .pipe(replace("&gt;", ">"))
-        .pipe(dest(path.build.svg));
-};
-
-// Обработка картинок (dev)
-const imagesDev = () => {
-    return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`, `!${path.src.svg}`])
-        .pipe(image([
-            image.mozjpeg({
-                quality: 80,
-                progressive: true
-            }),
-            image.optipng({
-                optimizationLevel: 2
-            }),
-            image.svgo({
-                plugins: [
-                    {removeViewBox: false},
-                    {cleanupIDs: false}
-                ]
-            })
-        ]))
-        .pipe(dest(path.build.img));
-};
-
-// Обработка картинок (build)
+// Обработка картинок
 const images = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`])
         .pipe(image([
@@ -246,7 +198,6 @@ const images = () => {
         ]))
         .pipe(dest(path.build.img));
 };
-
 const webpImages = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png}`])
         .pipe(webp())

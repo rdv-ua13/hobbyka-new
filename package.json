@@ -40,6 +40,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "@fancyapps/ui": "^4.0.31",
     "@popperjs/core": "^2.11.6",
     "accordion-js": "^3.3.4",
@@ -52,8 +53,7 @@
     "nouislider": "^15.7.0",
     "rellax": "^1.12.1",
     "select2": "^4.1.0-rc.0",
-    "simplebar": "^6.2.5",
-    "swiper": "^7.4.1",
+    "swiper": "^11.0.6",
     "tippy.js": "^6.3.7"
   }
 }
