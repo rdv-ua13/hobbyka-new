@@ -1,19 +1,19 @@
 <div class="nav-breadcrumbs swiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <a href="javascript:;">Главная</a>
+            <a class="nav-breadcrumbs__item" href="javascript:;">Главная</a>
         </div>
         <div class="swiper-slide">
-            <a href="javascript:;">Электроустановочные изделия</a>
+            <a class="nav-breadcrumbs__item" href="javascript:;">Каталог</a>
         </div>
         <div class="swiper-slide">
-            <a href="javascript:;">Звонки и домофоны</a>
+            <a class="nav-breadcrumbs__item" href="javascript:;">Детское игровое оборудование</a>
         </div>
         <div class="swiper-slide">
-            <a href="javascript:;">Звонковый трансформатор</a>
+            <a class="nav-breadcrumbs__item" href="javascript:;">Детские игровые комплексы</a>
         </div>
         <div class="swiper-slide">
-            <a href="javascript:;">SE Удлинитель катушечный Thorsman 4 роз 15м 3х1.5 IP20</a>
+            <span class="nav-breadcrumbs__item">Игровой комплекс QUANTWOOD «Сеул»</span>
         </div>
     </div>
 </div>

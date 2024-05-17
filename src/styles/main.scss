@@ -273,6 +273,10 @@
 		&__heading {
 			font-size: 18px;
 		}
+		&__section {
+			min-height: 54px;
+			height: 54px;
+		}
 	}
 }
 @media (max-width: 419.98px) {

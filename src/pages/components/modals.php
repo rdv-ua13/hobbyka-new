@@ -38,10 +38,10 @@
                                 required
                         >
                         <label class="form__input-btn">
-                            <svg class="icon icon-default">
+                            <svg class="icon icon-fill icon-default">
                                 <use href="img/sprite.svg#fill-eye"></use>
                             </svg>
-                            <svg class="icon icon-show">
+                            <svg class="icon icon-fill icon-show">
                                 <use href="img/sprite.svg#fill-eye-slash"></use>
                             </svg>
                             <input
@@ -72,7 +72,7 @@
                 <div class="h5">Авторизуйтесь через соцсети</div>
                 <div class="modal__soc-links">
                     <a class="soc-ya" href="javascript:;">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-ya"></use>
                         </svg>
                     </a>
@@ -161,10 +161,10 @@
                                 required
                         >
                         <label class="form__input-btn">
-                            <svg class="icon icon-default">
+                            <svg class="icon icon-fill icon-default">
                                 <use href="img/sprite.svg#fill-eye"></use>
                             </svg>
-                            <svg class="icon icon-show">
+                            <svg class="icon icon-fill icon-show">
                                 <use href="img/sprite.svg#fill-eye-slash"></use>
                             </svg>
                             <input
@@ -197,7 +197,7 @@
                 <div class="h5">Авторизуйтесь через соцсети</div>
                 <div class="modal__soc-links">
                     <a class="soc-ya" href="javascript:;">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-ya"></use>
                         </svg>
                     </a>
@@ -256,7 +256,7 @@
         <div class="modal__content-item">
             <div class="modal__header modal__header-icon">
                 <div class="modal__title-icon">
-                    <svg class="icon">
+                    <svg class="icon icon-fill">
                         <use href="img/lock-2-opened.svg#lock-2-opened"></use>
                     </svg>
                     <div class="h4">Мы отправили пароль на вашу почту</div>
@@ -357,17 +357,17 @@
             <div class="modal__soc modal-share-soc">
                 <div class="modal__soc-links">
                     <a class="soc-vk" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-vk"></use>
                         </svg>
                     </a>
                     <a class="soc-ok" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-ok"></use>
                         </svg>
                     </a>
                     <a class="soc-tg" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-tg"></use>
                         </svg>
                     </a>
@@ -408,17 +408,17 @@
             <div class="modal__soc modal-share-soc">
                 <div class="modal__soc-links">
                     <a class="soc-vk" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-vk"></use>
                         </svg>
                     </a>
                     <a class="soc-ok" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-ok"></use>
                         </svg>
                     </a>
                     <a class="soc-tg" href="javascript:;" target="_blank">
-                        <svg class="icon">
+                        <svg class="icon icon-fill">
                             <use href="img/sprite.svg#soc-logo-tg"></use>
                         </svg>
                     </a>
@@ -446,7 +446,7 @@
                                 placeholder="Найти город..."
                         >
                         <button class="btn-reset btn btn-link input-delete-btn">
-                            <svg class="icon icon-xs">
+                            <svg class="icon icon-fill icon-xs">
                                 <use href="img/sprite.svg#cross"></use>
                             </svg>
                         </button>
@@ -592,7 +592,7 @@
                                             value="5"
                                     >
                                     <label for="starrateTestOne" data-star-grade="&nbsp;– отлично">
-                                        <svg class="icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#fill-star"></use>
                                         </svg>
                                     </label>
@@ -605,7 +605,7 @@
                                             value="4"
                                     >
                                     <label for="starrateTestTwo" data-star-grade="&nbsp;– хорошо">
-                                        <svg class="icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#fill-star"></use>
                                         </svg>
                                     </label>
@@ -618,7 +618,7 @@
                                             value="3"
                                     >
                                     <label for="starrateTestThree" data-star-grade="&nbsp;– удовлетворительно">
-                                        <svg class="icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#fill-star"></use>
                                         </svg>
                                     </label>
@@ -631,7 +631,7 @@
                                             value="2"
                                     >
                                     <label for="starrateTestFour" data-star-grade="&nbsp;– плохо">
-                                        <svg class="icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#fill-star"></use>
                                         </svg>
                                     </label>
@@ -644,7 +644,7 @@
                                             value="1"
                                     >
                                     <label for="starrateTestFive" data-star-grade="&nbsp;– ужасно">
-                                        <svg class="icon">
+                                        <svg class="icon icon-fill">
                                             <use href="img/sprite.svg#fill-star"></use>
                                         </svg>
                                     </label>
@@ -692,11 +692,11 @@
                                     <input class="visually-hidden dropfile-input js-change-file" type="file" accept="image/*" multiple>
                                     <div class="dropfile-area">
                                         <div class="dropfile-area__view">
-                                            <svg class="icon icon-sm">
+                                            <svg class="icon icon-fill icon-sm">
                                                 <use href="img/sprite.svg#image-plus"></use>
                                             </svg>
                                             <div class="dropfile-area__view-dragover">
-                                                <svg class="icon icon-sm">
+                                                <svg class="icon icon-fill icon-sm">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
                                                 <span>Перетащите фото сюда</span>
@@ -790,7 +790,7 @@
         <div class="modal__content-item">
             <div class="modal__header modal__header-icon">
                 <div class="modal__title-icon modal__title-column">
-                    <svg class="icon">
+                    <svg class="icon icon-fill">
                         <use href="img/sprite.svg#menu-color-checkbox-rec"></use>
                     </svg>
                     <div class="h4 text-center">Ваш отзыв успешно отправлен на модерацию</div>

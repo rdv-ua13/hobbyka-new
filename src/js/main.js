@@ -32,7 +32,7 @@ application.prototype.init = function () {
     this.initCatalogContentSort();
     this.initContactsMap();
     this.initBasicTabs();
-    /*this.initAccordion();*/
+    this.initAccordion();
     this.initFooterAccordion();
     this.initFancyBehavior();
     this.initPasswordSwitcher();
@@ -926,39 +926,22 @@ application.prototype.initBasicTabs = function () {
 };
 
 // Initialization accordion
-/*application.prototype.initAccordion = function () {
+application.prototype.initAccordion = function () {
     if ($(".accordion").length) {
-        initAccordionResponsive();
-        $(window).on("resize", initAccordionResponsive, reloadAccordionResponsive);
-
-        function reloadAccordionResponsive() {
-            setTimeout(function () {
-                location.reload();
-            }, 300);
-        }
-        function initAccordionResponsive() {
-            $(".accordion__collapse").hide();
-
-            $(".js-accordion-btn").on("click", function () {
-                if (!$(this).hasClass("open")) {
-                    $(this).addClass("open");
-                    $(this).closest(".accordion__item").addClass("active");
-                    $(this).closest(".accordion__item").find(".accordion__collapse").removeClass("collapsed").slideDown(160);
-                } else if ($(this).hasClass("open")) {
-                    $(this).removeClass("open");
-                    $(this).closest(".accordion__item").removeClass("active");
-                    $(this).closest(".accordion__item").find(".accordion__collapse").slideUp(160).addClass("collapsed");
-                }
-            });
-        }
+        let accordions = Array.from(document.querySelectorAll('.accordion'));
+        let accordion = new Accordion(accordions, {
+            duration: 200,
+            /*showMultiple: true,*/
+            onlyChildNodes: false,
+        });
     }
-};*/
+};
 
 // Initialization footer accordion
 application.prototype.initFooterAccordion = function () {
-    if ($(".accordion-container").length) {
+    if ($(".accordion-footer").length) {
         let footerAccordion = null;
-        const accordions = Array.from(document.querySelectorAll('.accordion-container'));
+        const accordions = Array.from(document.querySelectorAll('.accordion-footer'));
         if (window.matchMedia('(max-width: 991.98px)').matches) {
             initAccordionResponsive();
         }

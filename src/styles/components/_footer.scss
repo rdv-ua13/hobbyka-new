@@ -21,10 +21,6 @@
 			}
 		}
 		.ac {
-			margin-top: unset;
-			border: unset;
-			background-color: unset;
-
 			&-trigger {
 				position: relative;
 				display: flex;
@@ -50,6 +46,15 @@
 					transition: var(--transition);
 				}
 			}
+
+			.icon {
+				fill: var(--white-color);
+				stroke: var(--white-color);
+			}
+
+			.footer__title {
+				margin-bottom: unset;
+			}
 		}
 		/*.accordion {
 			.icon {
@@ -61,16 +66,6 @@
 				margin-bottom: unset;
 			}
 		}*/
-		.ac {
-			.icon {
-				fill: var(--white-color);
-				stroke: var(--white-color);
-			}
-
-			.footer__title {
-				margin-bottom: unset;
-			}
-		}
 
 		.footer-contacts {
 			&__tel {

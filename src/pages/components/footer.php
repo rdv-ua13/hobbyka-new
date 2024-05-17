@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="footer-main__content">
                     <div class="footer__row">
-                        <div class="footer__column accordion-container">
+                        <div class="footer__column accordion-container accordion-footer">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
@@ -27,7 +27,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion-container">
+                        <div class="footer__column accordion-container accordion-footer">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer__column accordion-container">
+                        <div class="footer__column accordion-container accordion-footer">
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
