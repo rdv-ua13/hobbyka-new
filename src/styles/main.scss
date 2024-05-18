@@ -232,7 +232,6 @@
 @media (min-width: 992px) {
 	.product-category {
 		padding-bottom: 46px;
-		overflow: visible;
 
 		&__view {
 			.image {
@@ -435,9 +434,6 @@
 }
 
 .media-info {
-	&-slider {
-		overflow: visible;
-	}
 	&-card {
 		display: flex;
 		flex-direction: column;
@@ -595,9 +591,6 @@
 	}
 }
 
-.product-slider {
-	overflow: visible;
-}
 @media (min-width: 992px) {
 	.product-slider {
 		.swiper-slide {

@@ -207,13 +207,20 @@ application.prototype.initDropdownMenu = function () {
 application.prototype.initBasicSlider = function () {
     if ($('.basic-slider-wrap').length) {
         const slider = $('[data-basic-slider]');
+        let spaceBetweenMobile = 16;
+        let spaceBetweenDesktop = 24;
+
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
+            if ($(this).is('[data-bs-gap-sm]')) {
+                spaceBetweenDesktop = 16;
+                spaceBetweenMobile = 12;
+            }
 
             const basicSliderSetting = {
                 slidesPerView: 'auto',
                 slidesPerGroup: 1,
-                spaceBetween: 16,
+                spaceBetween: spaceBetweenMobile,
                 direction: 'horizontal',
                 navigation: {
                     nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
@@ -221,7 +228,7 @@ application.prototype.initBasicSlider = function () {
                 },
                 breakpoints: {
                     992: {
-                        spaceBetween: 24
+                        spaceBetween: spaceBetweenDesktop
                     },
                 }
             };
@@ -950,9 +957,11 @@ application.prototype.initFooterAccordion = function () {
         function initAccordionResponsive() {
             $(accordions).each(function (i) {
                 if (window.matchMedia('(min-width: 992px)').matches) {
-                    if(footerAccordion[i] != null) {
-                        footerAccordion[i].destroy();
-                        footerAccordion[i] = null;
+                    if(footerAccordion != null) {
+                        if(footerAccordion[i] != null) {
+                            footerAccordion[i].destroy();
+                            footerAccordion[i] = null;
+                        }
                     }
                     return;
                 } else if (window.matchMedia('(max-width: 991.98px)').matches) {

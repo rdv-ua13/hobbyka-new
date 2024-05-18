@@ -111,7 +111,7 @@
 <div class="gap-xl">
     <div class="container">
         <div class="slider-out basic-slider-wrap">
-            <div class="product-category basic-slider swiper" data-product-category-slider>
+            <div class="product-category basic-slider basic-slider-overflow-visible swiper" data-product-category-slider>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide product-category__item">
                         <a class="product-category__view" href="javascript:;">
@@ -278,7 +278,7 @@
                     <div class="basic-tabs-content__panel active" data-id="pop_good">
                         <div class="basic-tabs-content__content">
                             <div class="slider-out basic-slider-wrap nav-out-wrap">
-                                <div class="product-slider basic-slider nav-out swiper" data-basic-slider>
+                                <div class="product-slider basic-slider basic-slider-overflow-visible nav-out swiper" data-basic-slider>
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="card card-product">
@@ -1342,7 +1342,7 @@
         </div>
 
         <div class="slider-out basic-slider-wrap nav-out-wrap">
-            <div class="product-slider basic-slider nav-out swiper" data-basic-slider>
+            <div class="product-slider basic-slider basic-slider-overflow-visible nav-out swiper" data-basic-slider>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card card-product">
@@ -2525,7 +2525,7 @@
                     <div class="basic-tabs-content__panel active" data-id="all">
                         <div class="basic-tabs-content__content">
                             <div class="slider-out basic-slider-wrap nav-out-wrap">
-                                <div class="media-info-slider basic-slider nav-out swiper" data-basic-slider>
+                                <div class="media-info-slider basic-slider basic-slider-overflow-visible nav-out swiper" data-basic-slider>
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="media-info-card">
@@ -2830,7 +2830,7 @@
                 <div class="h4 fw-bold">Вы недавно смотрели</div>
             </div>
             <div class="slider-out basic-slider-wrap nav-out-wrap">
-                <div class="basic-slider nav-out swiper" data-basic-slider>
+                <div class="basic-slider basic-slider-overflow-visible nav-out swiper" data-basic-slider>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="card card-info">

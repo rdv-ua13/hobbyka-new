@@ -326,7 +326,7 @@
                 <div class="h4 fw-bold">Вы недавно смотрели</div>
             </div>
             <div class="slider-out basic-slider-wrap nav-out-wrap">
-                <div class="basic-slider nav-out swiper" data-basic-slider>
+                <div class="basic-slider basic-slider-overflow-visible nav-out swiper" data-basic-slider>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="card card-info">
