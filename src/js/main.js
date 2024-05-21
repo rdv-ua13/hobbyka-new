@@ -40,6 +40,7 @@ application.prototype.init = function () {
     this.initPasswordSwitcher();
     this.initDatepicker();
     this.setCardProductMore();
+    this.initSmoothScrollTo();
 };
 
 // Initialization disable scroll
@@ -1073,4 +1074,27 @@ application.prototype.setCardProductMore = function () {
             }
         });
     }
+};
+
+// Initialization switch content
+application.prototype.initSmoothScrollTo = function () {
+    $('[data-scroll-to]').on('click', function (e) {
+        let currentId = $(this).attr('href');
+        let headerSize = null;
+        e.preventDefault();
+        resizeHeader();
+        $('html, body').animate({
+            scrollTop: $(currentId).offset().top - headerSize
+        }, 200);
+
+        function resizeHeader() {
+            if (window.matchMedia('(min-width: 1200px)').matches) {
+                headerSize = 255;
+            } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                headerSize = 86;
+            } else if (window.matchMedia('(min-width: 992px) and (max-width: 1199.98px)').matches) {
+                headerSize = 212;
+            }
+        }
+    });
 };

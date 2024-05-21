@@ -71,6 +71,7 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
 			<li><a class="ready" href="catalog-lvl-1.php" target="_blank">Каталог (Ур. 1)</a></li>
 			<li><a class="ready" href="catalog-lvl-2.php" target="_blank">Каталог (Ур. 2)</a></li>
+			<li><a class="ready" href="card-detail.php" target="_blank">Карточка-детальная</a></li>
 
             <br>
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

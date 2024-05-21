@@ -811,6 +811,18 @@
 	}
 }
 
+.detail {
+
+}
+@media (min-width: 992px) {
+	.detail {
+		.nav-breadcrumbs {
+			padding-top: 8px;
+			padding-right: 390px;
+		}
+	}
+}
+
 .hbk-own-production {
 	display: flex;
 	flex-direction: column;
