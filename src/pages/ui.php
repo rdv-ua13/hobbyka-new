@@ -216,6 +216,13 @@
                             </svg>
                             <!--end ui content-->
                         </span>
+                        <span class="tooltip" data-tippy-content="#filter">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#filter"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
                         <span class="tooltip" data-tippy-content="#dots">
                             <!--start ui content-->
                             <svg class="icon icon-md icon-fill">
@@ -547,100 +554,9 @@
                     </div>
                     <div class="ui-tooltip-set">
                         <div class="slider-out">
-                            <div class="tag-bar swiper" data-tag-bar-slider>
-                                <div class="swiper-wrapper tag-bar__list">
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--border">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--border">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="swiper-slide tag-bar__item">
+                            <div class="tag-bar">
+                                <div class="tag-bar__list">
+                                    <div class="tag-bar__item">
                                         <label class="tag-wrapper">
                                             <input
                                                     class="visually-hidden"
@@ -653,12 +569,237 @@
                                             </span>
                                         </label>
                                     </div>
-                                    <div class="swiper-slide tag-bar__item">
+                                    <div class="tag-bar__item">
                                         <label class="tag-wrapper">
                                             <input
                                                     class="visually-hidden"
                                                     type="checkbox"
                                                     name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--yellow">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--yellow">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGS][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--green">
+                                                <svg class="icon icon-fill icon-md">
+                                                    <use href="img/sprite.svg#sale"></use>
+                                                </svg>
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui-row">
+                    <div class="ui-title">
+                        <div class="fz-subtitle">tag slider</div>
+                    </div>
+                    <div class="ui-tooltip-set">
+                        <div class="slider-out">
+                            <div class="tag-bar swiper" data-tag-bar-slider>
+                                <div class="swiper-wrapper tag-bar__list">
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--border">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
+                                                    value=""
+                                            >
+                                            <span class="tag tag--yellow">
+                                                <span>Текст</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide tag-bar__item">
+                                        <label class="tag-wrapper">
+                                            <input
+                                                    class="visually-hidden"
+                                                    type="checkbox"
+                                                    name="UI[TAGSLIDER][]"
                                                     value=""
                                             >
                                             <span class="tag tag--green">

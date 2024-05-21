@@ -1238,7 +1238,7 @@
         <div class="hbk-own-production bg-lightgray">
             <div class="gap-xs">
                 <div class="slider-out basic-slider-wrap">
-                    <div class="tag-bar basic-slider swiper" data-tag-bar-slider>
+                    <div class="tag-bar basic-slider basic-slider-overflow-visible swiper" data-tag-bar-slider>
                         <div class="swiper-wrapper tag-bar__list">
                             <div class="swiper-slide tag-bar__item">
                                 <label class="tag-wrapper">

@@ -242,14 +242,285 @@
                 </div>
             </div>
 
-            tags
+            <div class="catalog-tagbar">
+                <div class="catalog-tagbar__item slider-out basic-slider-wrap">
+                    <div class="tag-bar tag-bar-mobile basic-slider basic-slider-overflow-visible swiper" data-tag-bar-slider-mobile>
+                        <div class="tag-bar__list swiper-wrapper">
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>МАФы для детских садов, площадок и школ</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>ТОП продаж скамеек</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>Садовые скамейки</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>ТОП продаж навесов, пергол, беседок</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>Парковые скамейки</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>Уличные скамейки</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>Чугунные скамейки</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--yellow">
+                                    <span>Скамейки из профильной трубы</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--border">
+                                    <span>Круглые скамейки и вокруг дерева</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--border">
+                                    <span>Скамейки для школы</span>
+                                </span>
+                                </label>
+                            </div>
+                            <div class="tag-bar__item swiper-slide">
+                                <label class="tag-wrapper">
+                                    <input
+                                            class="visually-hidden"
+                                            type="checkbox"
+                                            name="CATALOG[TAGS][]"
+                                            value=""
+                                    >
+                                    <span class="tag tag--border">
+                                    <span>Скамейки во двор</span>
+                                </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-tagbar__item catalog-tagbar__select">
+                    <select class="input-reset input input-select" name="">
+                        <option value="0">Все теги</option>
+                        <option value="1">Не все теги</option>
+                        <option value="2">Некоторые теги</option>
+                    </select>
+                </div>
+            </div>
         </div>
 
         <div class="catalog">
             <div class="gap-md">
-                <div class="catalog-filter">
-                    filter
-                </div>
+                <form class="catalog-filter" action="" data-filter>
+                    <div class="catalog-filter__selected">200 товаров</div>
+                    <div class="catalog-filter__sort catalog-filter-sort" data-sort>
+                        <div class="catalog-filter__sort-title">Сортировать по:</div>
+                        <div class="catalog-filter__sort-select" data-sort-select>
+                            <span class="catalog-filter__sort-select-text link link-primary link-tdu link-dashed" data-sort-select-text>популярности</span>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-down"></use>
+                            </svg>
+                        </div>
+                        <div class="catalog-filter__sort-options" data-sort-options>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByPopular"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[SORT][POPULAR]"
+                                        value=""
+                                        checked="checked"
+                                >
+                                <span class="tag">популярности</span>
+                            </label>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByPrice"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[SORT][PRICE]"
+                                        value=""
+                                >
+                                <span class="tag">цене</span>
+                            </label>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByReview"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[SORT][REVIEW]"
+                                        value=""
+                                >
+                                <span class="tag">отзывам</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-filter__price">
+                        <div class="catalog-filter__price-title">Цена:</div>
+                        <div class="catalog-filter__price-range">
+                            <div class="catalog-filter__price-range-item catalog-filter__price-range-from">
+                                <div class="catalog-filter__price-range-prefix">от</div>
+                                <input
+                                        id="CF_PRICE_MIN"
+                                        class="input-reset input catalog-filter__price-range-input"
+                                        type="number"
+                                        name="CF_PRICE_MIN"
+                                        value=""
+                                        placeholder="0"
+                                        autocomplete="off"
+                                >
+                            </div>
+                            <div class="catalog-filter__price-range-item catalog-filter__price-range-to">
+                                <div class="catalog-filter__price-range-prefix">до</div>
+                                <input
+                                        id="CF_PRICE_MAX"
+                                        class="input-reset input catalog-filter__price-range-input"
+                                        type="text"
+                                        name="CF_PRICE_MAX"
+                                        value=""
+                                        placeholder="81 000"
+                                        autocomplete="off"
+                                >
+                            </div>
+                        </div>
+                        <div class="catalog-filter__price-currency">₽</div>
+                    </div>
+                    <div class="catalog-filter__sort catalog-filter-material" data-sort>
+                        <div class="catalog-filter__sort-title">Сортировать по:</div>
+                        <div class="catalog-filter__sort-select" data-sort-select>
+                            <span class="catalog-filter__sort-select-text link link-primary link-tdu link-dashed" data-sort-select-text>сталь, дерево-композит</span>
+                            <svg class="icon icon-fill">
+                                <use href="img/sprite.svg#chevron-down"></use>
+                            </svg>
+                        </div>
+                        <div class="catalog-filter__sort-options" data-sort-options>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByPopular"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[MATERIAL][STEEL_WOOD]"
+                                        value=""
+                                        checked="checked"
+                                >
+                                <span class="tag">сталь, дерево-композит</span>
+                            </label>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByPrice"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[MATERIAL][STEEL]"
+                                        value=""
+                                >
+                                <span class="tag">сталь</span>
+                            </label>
+                            <label class="catalog-filter__sort-item tag-wrapper">
+                                <input
+                                        id="sortByReview"
+                                        class="visually-hidden"
+                                        type="radio"
+                                        name="sortCatalogFilter[MATERIAL][WOOD]"
+                                        value=""
+                                >
+                                <span class="tag">дерево-композит</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="gap-md">
                 <div class="card-list card-list--v-lg">
@@ -333,13 +604,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -460,13 +731,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -587,13 +858,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -717,13 +988,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -847,13 +1118,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -974,13 +1245,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
@@ -1101,13 +1372,13 @@
                                             </svg>
                                         </button>
                                         <div class="card__act-content" data-card-act-content="">
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#heart"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
-                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить">
+                                            <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="Сравнить" data-tippy-desktop-visible>
                                                 <svg class="icon icon-fill">
                                                     <use href="img/sprite.svg#copy"></use>
                                                 </svg>
