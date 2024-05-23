@@ -450,7 +450,7 @@
                                                             <ul class="list-reset mini-slider__dots"></ul>
                                                         </div>
                                                         <div class="card__sale-label">
-                                                            <span class="chip chip-hit">Хит</span>
+                                                            <span class="chip chip-hit-star">Хит</span>
                                                         </div>
                                                         <div class="card__ar">
                                                             <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -579,7 +579,7 @@
                                                             <ul class="list-reset mini-slider__dots"></ul>
                                                         </div>
                                                         <div class="card__sale-label">
-                                                            <span class="chip chip-hit">Хит</span>
+                                                            <span class="chip chip-hit-star">Хит</span>
                                                         </div>
                                                         <div class="card__ar">
                                                             <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -972,7 +972,7 @@
                                                             <ul class="list-reset mini-slider__dots"></ul>
                                                         </div>
                                                         <div class="card__sale-label">
-                                                            <span class="chip chip-hit">Хит</span>
+                                                            <span class="chip chip-hit-star">Хит</span>
                                                         </div>
                                                         <div class="card__ar">
                                                             <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1101,7 +1101,7 @@
                                                             <ul class="list-reset mini-slider__dots"></ul>
                                                         </div>
                                                         <div class="card__sale-label">
-                                                            <span class="chip chip-hit">Хит</span>
+                                                            <span class="chip chip-hit-star">Хит</span>
                                                         </div>
                                                         <div class="card__ar">
                                                             <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1508,7 +1508,7 @@
                                         <ul class="list-reset mini-slider__dots"></ul>
                                     </div>
                                     <div class="card__sale-label">
-                                        <span class="chip chip-hit">Хит</span>
+                                        <span class="chip chip-hit-star">Хит</span>
                                     </div>
                                     <div class="card__ar">
                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1775,7 +1775,7 @@
                                         <ul class="list-reset mini-slider__dots"></ul>
                                     </div>
                                     <div class="card__sale-label">
-                                        <span class="chip chip-hit">Хит</span>
+                                        <span class="chip chip-hit-star">Хит</span>
                                     </div>
                                     <div class="card__ar">
                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1904,7 +1904,7 @@
                                         <ul class="list-reset mini-slider__dots"></ul>
                                     </div>
                                     <div class="card__sale-label">
-                                        <span class="chip chip-hit">Хит</span>
+                                        <span class="chip chip-hit-star">Хит</span>
                                     </div>
                                     <div class="card__ar">
                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -2171,7 +2171,7 @@
                                         <ul class="list-reset mini-slider__dots"></ul>
                                     </div>
                                     <div class="card__sale-label">
-                                        <span class="chip chip-hit">Хит</span>
+                                        <span class="chip chip-hit-star">Хит</span>
                                     </div>
                                     <div class="card__ar">
                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -2503,7 +2503,7 @@
         <div class="container">
             <div class="media-info basic-tabs">
                 <div class="gap-sm slider-out basic-slider-wrap">
-                    <div class="basic-tabs-container basic-slider swiper" data-tab="mi-tabs" data-tabs-slider>
+                    <div class="basic-tabs-container basic-slider swiper" data-tab="mi-tabs-2" data-tabs-slider>
                         <div class="basic-tabs-slider-list swiper-wrapper reset-slider-list">
                             <div class="basic-tabs-item swiper-slide">
                                 <span class="tab basic-tabs-trigger active" data-target="all"><span>Все</span></span>
@@ -2521,7 +2521,7 @@
                     </div>
                 </div>
 
-                <div class="basic-tabs-content" data-tab-content="mi-tabs">
+                <div class="basic-tabs-content" data-tab-content="mi-tabs-2">
                     <div class="basic-tabs-content__panel active" data-id="all">
                         <div class="basic-tabs-content__content">
                             <div class="slider-out basic-slider-wrap nav-out-wrap">

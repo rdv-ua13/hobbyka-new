@@ -41,6 +41,7 @@ application.prototype.init = function () {
     this.initDatepicker();
     this.setCardProductMore();
     this.initSmoothScrollTo();
+    this.initCartQuantity();
 };
 
 // Initialization disable scroll
@@ -316,7 +317,7 @@ application.prototype.initSliders = function () {
         slider.each(function (i) {
             slider.eq(i).addClass('tag-bar-slider-' + i);
 
-            const tagbarSliderMobileSettings = {
+            const tagbarSliderSettings = {
                 slidesPerView: 'auto',
                 spaceBetween: 4,
                 direction: 'horizontal',
@@ -330,7 +331,7 @@ application.prototype.initSliders = function () {
                     if(tagbarSliderMobile !== null) tagbarSliderMobile.destroy(true, true);
                     tagbarSliderMobile = null;
                 } else if (window.matchMedia('(max-width: 991.98px)').matches) {
-                    tagbarSliderMobile = new Swiper('[data-tag-bar-slider-mobile].tag-bar-slider-' + i, tagbarSliderMobileSettings);
+                    tagbarSliderMobile = new Swiper('[data-tag-bar-slider-mobile].tag-bar-slider-' + i, tagbarSliderSettings);
                 }
             }
         });
@@ -397,6 +398,55 @@ application.prototype.initSliders = function () {
                         clickable: false,
                     }
                 },
+            }
+        });
+    }
+
+    if ($('[data-colors]').length) {
+        const slider = $('[data-colors]');
+        let sliderMobile = null;
+
+        slider.each(function (i) {
+            slider.eq(i).addClass('choose-color-slider-' + i);
+
+            const sliderSettings = {
+                slidesPerView: 'auto',
+                spaceBetween: 4,
+                direction: 'horizontal',
+            };
+
+            reinitSlider();
+            $(window).on('resize', reinitSlider);
+
+            function reinitSlider() {
+                if (window.matchMedia('(min-width: 992px)').matches) {
+                    if(sliderMobile !== null) sliderMobile.destroy(true, true);
+                    sliderMobile = null;
+                } else if (window.matchMedia('(max-width: 991.98px)').matches) {
+                    sliderMobile = new Swiper('[data-colors].choose-color-slider-' + i, sliderSettings);
+                }
+            }
+        });
+    }
+
+    if ($('.detail-thumb-slider').length) {
+        let detailThumbSliderPointer = new Swiper('.detail-thumb-slider-pointer', {
+            slidesPerView: 'auto',
+            spaceBetween: 8,
+            direction: "horizontal",
+            freeMode: true,
+            watchSlidesProgress: true
+        });
+        let detailThumbSlider = new Swiper('.detail-thumb-slider', {
+            slidesPerView: 1,
+            effect: 'fade',
+            watchOverflow: true,
+            navigation: {
+                nextEl: '.detail-thumb-slider .swiper-button-next',
+                prevEl: '.detail-thumb-slider .swiper-button-prev',
+            },
+            thumbs: {
+                swiper: detailThumbSliderPointer,
             }
         });
     }
@@ -1089,12 +1139,44 @@ application.prototype.initSmoothScrollTo = function () {
 
         function resizeHeader() {
             if (window.matchMedia('(min-width: 1200px)').matches) {
-                headerSize = 255;
+                headerSize = 205;
             } else if (window.matchMedia('(max-width: 991.98px)').matches) {
-                headerSize = 86;
+                headerSize = 62;
             } else if (window.matchMedia('(min-width: 992px) and (max-width: 1199.98px)').matches) {
-                headerSize = 212;
+                headerSize = 188;
             }
         }
     });
+};
+
+// Initialization cart quantity
+application.prototype.initCartQuantity = function () {
+    if ($('.cart-quantity').length) {
+        $(document).on('click', '.cart-quantity-btn', function(e) {
+            let $button = $(this);
+            let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
+            let mult = parseInt($button.closest('.cart-quantity').find('input.cart-quantity-input').data('mult'));
+            let newVal = null;
+
+            if(mult <= 0 || isNaN(mult)) {
+                mult = 1;
+            }
+
+            if($button.data('value') === 'qty-add') {
+                newVal = parseInt(oldValue) + mult;
+            } else {
+                if (oldValue > 0) {
+                    newVal = parseInt(oldValue) - mult;
+                } else {
+                    newVal = 0;
+                }
+            }
+
+            if(newVal == 0) {
+                newVal = mult;
+            }
+
+            $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
+        });
+    }
 };

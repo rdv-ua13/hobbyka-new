@@ -9,211 +9,214 @@
 
             <div class="card-detail">
                 <div class="card-detail__item card-detail__view">
-                    <div class="details-thumb-slider-wrapper">
-                        <div class="swiper details-thumb-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide media-content">
-                                    <a
-                                            class="media-content__item media-video"
-                                            href="https://www.youtube.com/embed/K4TOrB7at0Y?si=QJ3_usB2qI1loWQR"
-                                            data-fancybox=""
-                                    >
-										<video
-                                                            class="media-video__item"
-                                                            src="demo.mp4"
-                                                            preload="auto"
-                                                            poster=""
-                                                    ></video>
-										<?/*<iframe
+                    <div class="card-detail__view-content detail-thumb-slider-wrapper">
+                        <div class="gap-xxxs slider-out basic-slider-wrap nav-out-wrap">
+                            <div class="basic-slider nav-out detail-thumb-slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-1.png"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-2.png"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-3.png"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-4.png"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-5.png"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide media-content">
+                                        <a
+                                                class="media-content__item media-video"
+                                                href="demo.mp4"
+                                                data-fancybox=""
+                                        >
+                                            <video
+                                                    class="media-video__item"
+                                                    src="demo.mp4"
+                                                    preload="auto"
+                                                    poster=""
+                                                    width="550"
+                                                    height="550"
+                                            ></video>
+											<?/*<iframe
                                                 class="media-video__item"
                                                 src="https://www.youtube.com/embed/K4TOrB7at0Y?si=QJ3_usB2qI1loWQR"
                                                 title="YouTube video player"
                                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                 allowfullscreen
                                         ></iframe>*/?>
-                                    </a>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/sprite.svg#3d"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/sprite.svg#box-3d"
+                                                class="image"
+                                                width="550"
+                                                height="550"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-4.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-1.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-2.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-3.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-4.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-5.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-1.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-2.png"
-                                            class="image"
-                                            width="336"
-                                            height="426"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                            </div>
-                            <div class="details-thumb-slider__sale-label">
-                                <span class="sale-label sale-label-red">Новинка</span>
-                                <span class="sale-label sale-label-green">Для детей</span>
-                                <span class="sale-label sale-label-blue">Для мозга</span>
-                            </div>
-                        </div>
-                        <div class="swiper details-thumb-slider-pointer" thumbsSlider="">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide media-content">
-                                    <div class="media-content__item">
-                                        <button class="btn-reset btn btn-play">
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#play"></use>
+                                <div class="swiper-navigation">
+                                    <div class="swiper-button-next">
+                                        <button class="btn-reset btn btn-square">
+                                            <svg class="icon icon-fill icon-sm">
+                                                <use href="img/sprite.svg#arrow-left"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="swiper-button-prev">
+                                        <button class="btn-reset btn btn-square">
+                                            <svg class="icon icon-fill icon-sm">
+                                                <use href="img/sprite.svg#arrow-left"></use>
                                             </svg>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-4.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-1.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-2.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-3.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-4.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-5.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-1.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
-                                <div class="swiper-slide">
-                                    <img
-                                            loading="lazy"
-                                            src="img/prod-2.png"
-                                            class="image"
-                                            width="80"
-                                            height="80"
-                                            alt="Изображение блока"
-                                    >
+                                <div class="detail-thumb-slider__sale-label">
+                                    <span class="chip chip-sale">
+                                        <svg class="icon icon-sm icon-fill">
+                                            <use href="img/sprite.svg#sale"></use>
+                                        </svg>
+                                        <span>-50%</span>
+                                    </span>
+                                    <span class="chip">
+                                        <svg class="icon icon-sm icon-fill">
+                                            <use href="img/sprite.svg#star"></use>
+                                        </svg>
+                                        <span>Хит</span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
+                        <div class="slider-out basic-slider-wrap">
+                            <div class="basic-slider detail-thumb-slider-pointer swiper" thumbsSlider="">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-1.png"
+                                                class="image"
+                                                width="48"
+                                                height="48"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-2.png"
+                                                class="image"
+                                                width="48"
+                                                height="48"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-3.png"
+                                                class="image"
+                                                width="48"
+                                                height="48"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-4.png"
+                                                class="image"
+                                                width="48"
+                                                height="48"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img
+                                                loading="lazy"
+                                                src="img/prod-5.png"
+                                                class="image"
+                                                width="48"
+                                                height="48"
+                                                alt="Изображение блока"
+                                        >
+                                    </div>
+                                    <div class="swiper-slide media-content">
+                                        <div class="media-content__item media-video">
+                                            <video
+                                                    class="media-video__item"
+                                                    src="demo.mp4"
+                                                    preload="auto"
+                                                    poster=""
+                                                    width="48"
+                                                    height="48"
+                                            ></video>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide media-content">
+                                        <div class="media-content__item media-3d"></div>
+                                    </div>
+                                    <div class="swiper-slide media-content yellow">
+                                        <div class="media-content__item media-ar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
+                    <div class="bg-dark" style="flex: 1;">text</div>
                 </div>
                 <div class="card-detail__item card-detail__descr">
                     <div class="gap-xs card-detail__action">
@@ -250,7 +253,7 @@
                             </svg>
                         </button>
                     </div>
-                    <div class="card-detail__header">
+                    <div class="gap-md card-detail__header">
                         <div class="h3">Игровой комплекс QUANTWOOD «Сеул»</div>
                         <div class="card-detail__spoiler">
                             <button class="btn-reset btn card-detail__spoiler-item" type="button"> <?/* todo:  data-fancybox data-src="#modal" */?>
@@ -262,7 +265,7 @@
                             <a class="btn-reset btn card-detail__spoiler-item" href="#test" data-scroll-to>
                                 <span class="text-content link link-primary link-tdu link-dashed">О модели</span>
                             </a>
-                            <a class="btn-reset btn card-detail__spoiler-item" href="javascript:;" data-scroll-to>
+                            <a class="btn-reset btn card-detail__spoiler-item" href="#test2" data-scroll-to>
                                 <span class="text-content link link-primary link-tdu link-dashed">15 отзывов</span>
                             </a>
                             <a class="btn-reset btn card-detail__spoiler-item" href="javascript:;" data-scroll-to>
@@ -270,139 +273,479 @@
                             </a>
                         </div>
                     </div>
-                    <div class="card-detail__description">
-                        <div class="fz-sm">Упаковка:</div>
-                        <div class="tag-bar">
-                            <div class="tag-bar__list">
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="WEIGHT[TAGS][]"
-                                                value=""
-                                                checked
-                                        >
-                                        <span class="tag">750 гр.</span>
-                                    </label>
-                                </div>
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="WEIGHT[TAGS][]"
-                                                value=""
-                                        >
-                                        <span class="tag">1500 гр.</span>
-                                    </label>
+                    <div class="card-detail__info">
+                        <div class="gap-md card-detail__price">
+                            <div class="card-detail__price-current">254 000 ₽</div>
+                            <div class="card-detail__price-discount">
+                                <div class="card-detail__price-origin">290 500 ₽</div>
+                                <div class="card-detail__price-minus">
+                                    <span class="chip">–15%</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-detail__description" id="test">
-                        <div class="fz-sm">Вкус:</div>
-                        <div class="tag-bar">
-                            <div class="tag-bar__list">
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="TASTE[TAGS][]"
-                                                value=""
-                                                checked
-                                        >
-                                        <span class="tag">Банан</span>
-                                    </label>
+                        <div class="gap-md card-detail__cart cart-buy">
+                            <div class="cart-quantity">
+                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                    <svg class="icon icon-fill icon-lg">
+                                        <use href="img/sprite.svg#minus"></use>
+                                    </svg>
+                                </button>
+                                <input
+                                        class="input-reset cart-quantity-input"
+                                        type="text"
+                                        placeholder="999"
+                                        value="1"
+                                        max="999"
+                                        data-mult="1"
+                                >
+                                <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                    <svg class="icon icon-fill icon-lg">
+                                        <use href="img/sprite.svg#plus"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <button class="btn-reset btn btn-primary cart-in" type="button"> <?// can be ".success"?>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#filled-cart"></use>
+                                </svg>
+                                <span class="text-content">Добавить к заказу</span>
+                            </button>
+                            <button class="btn-reset btn btn-light" type="button">
+                                <span class="text-content">Купить в 1 клик</span>
+                            </button>
+                        </div>
+                        <div class="gap-md card-detail__options">
+                            <div class="card-detail__options-title">
+                                <span>Версия</span>
+                            </div>
+                            <div class="slider-out basic-slider-wrap">
+                                <div class="tag-bar tag-bar-mobile basic-slider swiper" data-tag-bar-slider-mobile>
+                                    <div class="tag-bar__list swiper-wrapper">
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                        checked
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>0,7 м (кресло)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>1,2 м</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>1,8 м</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>2,0 м (2 опоры)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>2,0 м (3 опоры)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>3,0 м (3 опоры)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>1,5 м (композит)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="tag-bar__item swiper-slide">
+                                            <label class="tag-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="checkbox"
+                                                        name="CATALOG[TAGS][]"
+                                                        value=""
+                                                >
+                                                <span class="tag tag--border">
+                                                    <span>1,8 м (композит)</span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="TASTE[TAGS][]"
-                                                value=""
-                                        >
-                                        <span class="tag">Ваниль</span>
-                                    </label>
-                                </div>
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="TASTE[TAGS][]"
-                                                value=""
-                                        >
-                                        <span class="tag">Клубника</span>
-                                    </label>
-                                </div>
-                                <div class="tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="radio"
-                                                name="TASTE[TAGS][]"
-                                                value=""
-                                        >
-                                        <span class="tag">Шоколад</span>
-                                    </label>
+                            </div>
+                            <div class="card-detail__options-caption">
+                                <svg class="icon icon-sm icon-fill">
+                                    <use href="img/sprite.svg#info"></use>
+                                </svg>
+                                <span class="caption-color fz-sm">Поставляется в разобранном виде</span>
+                            </div>
+                        </div>
+                        <div class="gap-md card-detail__options">
+                            <div class="card-detail__options-title">
+                                <span>Основные цвета</span>
+                                <span class="tooltip" data-tippy-content="tooltip content">
+                                    <svg class="icon icon-sm icon-fill">
+                                        <use href="img/sprite.svg#info"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="slider-out basic-slider-wrap">
+                                <div class="choose-color basic-slider swiper" data-colors>
+                                    <div class="choose-color__list swiper-wrapper">
+                                        <div class="choose-color__item swiper-slide">
+                                            <label class="choose-color-elem-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="radio"
+                                                        name="DETAIL[COLORS][]"
+                                                        value=""
+                                                        checked
+                                                >
+                                                <span class="choose-color-elem">
+                                                    <span class="choose-color-elem__view">
+                                                        <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/color-mahagon.png"
+                                                            width="62"
+                                                            height="62"
+                                                            alt="Изображение блока"
+                                                        >
+                                                    </span>
+                                                    <span class="choose-color-elem__title">Махагон</span>
+                                            </label>
+                                        </div>
+                                        <div class="choose-color__item swiper-slide">
+                                            <label class="choose-color-elem-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="radio"
+                                                        name="DETAIL[COLORS][]"
+                                                        value=""
+                                                >
+                                                <span class="choose-color-elem">
+                                                    <span class="choose-color-elem__view">
+                                                        <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/color-palysandr.png"
+                                                            width="62"
+                                                            height="62"
+                                                            alt="Изображение блока"
+                                                        >
+                                                    </span>
+                                                    <span class="choose-color-elem__title">Палисандр</span>
+                                            </label>
+                                        </div>
+                                        <div class="choose-color__item swiper-slide">
+                                            <label class="choose-color-elem-wrapper">
+                                                <input
+                                                        class="visually-hidden"
+                                                        type="radio"
+                                                        name="DETAIL[COLORS][]"
+                                                        value=""
+                                                >
+                                                <span class="choose-color-elem">
+                                                    <span class="choose-color-elem__view">
+                                                        <img
+                                                                loading="lazy"
+                                                                class="image"
+                                                                src="img/color-tik.png"
+                                                                width="62"
+                                                                height="62"
+                                                                alt="Изображение блока"
+                                                        >
+                                                    </span>
+                                                    <span class="choose-color-elem__title">Тик</span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-detail__description">
-                        <table class="table-descr table-descr--sb">
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <span>Форма креатина</span>
-                                </td>
-                                <td>
-                                            <span>
-                                                <a class="link link-primary" href="javascript:;">креатин моногидрат</a>
-                                            </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>Вид транспортной системы</span>
-                                </td>
-                                <td>
-                                            <span>
-                                                <a class="link link-primary" href="javascript:;">креатин</a>
-                                            </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>Диетические особенности</span>
-                                </td>
-                                <td>
-                                            <span>
-                                                <a class="link link-primary" href="javascript:;">без ГМО</a>,
-                                                <a class="link link-primary" href="javascript:;">без глютена</a>,
-                                                <a class="link link-primary" href="javascript:;">без мальтозы</a>,
-                                                <a class="link link-primary" href="javascript:;">без сукралозы</a>,
-                                                <a class="link link-primary" href="javascript:;">веганский</a>,
-                                                <a class="link link-primary" href="javascript:;">вегетариантский</a>
-                                            </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>Для кого</span>
-                                </td>
-                                <td>
-                                            <span>
-                                                <a class="link link-primary" href="javascript:;">для женщин</a>,
-                                                <a class="link link-primary" href="javascript:;">для мужчин</a>
-                                            </span>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
+
+                        <div class="hr"></div>
+
+                        <div id="test" class="gap-md card-detail__description">
+                            <div class="gap-lg">
+                                <div class="gap-md">
+                                    <div class="h3">Подробные характеристики</div>
+                                </div>
+                                <div class="gap-sm card-detail__options">
+                                    <div class="card-detail__options-title">
+                                        <span>Опоры</span>
+                                    </div>
+                                    <table class="table-descr">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span>Материал</span>
+                                                </td>
+                                                <td>
+                                                    <span>Сталь. Покрыты порошковой полимерной краской</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Стандартный цвет</span>
+                                                </td>
+                                                <td>
+                                                    <span>чёрный RAL 9005 или серый RAL 7040</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="gap-sm card-detail__options">
+                                    <div class="card-detail__options-title">
+                                        <span>Сидение и спинка</span>
+                                    </div>
+                                    <table class="table-descr">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span>Материал</span>
+                                                </td>
+                                                <td>
+                                                    <span>Брус из хвойных пород древесины</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Покрытие</span>
+                                                </td>
+                                                <td>
+                                                    <span>атмосферостойкая лессирующая акриловая пропитка с лаком</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Стандартный цвет</span>
+                                                </td>
+                                                <td>
+                                                    <span>Палисандр, Махагон, Тик</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-detail__options">
+                                    <div class="card-detail__options-caption">
+                                        <svg class="icon icon-sm icon-fill">
+                                            <use href="img/sprite.svg#info"></use>
+                                        </svg>
+                                        <span class="caption-color fz-sm">Производитель оставляет за собой право изменять конфигурацию изделия на своё усмотрение без уведомления заказчика</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gap-lg">
+                                <div class="gap-md">
+                                    <div class="h3">Технические характеристики</div>
+                                </div>
+                                <div class="card-detail__options">
+                                    <table class="table-descr">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span>Длина</span>
+                                                </td>
+                                                <td>
+                                                    <span>700 мм; 1200 мм; 1500 мм; 1800 мм; 2000 мм; 3000 мм</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Ширина</span>
+                                                </td>
+                                                <td>
+                                                    <span>610 мм</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Высота</span>
+                                                </td>
+                                                <td>
+                                                    <span>835 мм</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Вес</span>
+                                                </td>
+                                                <td>
+                                                    <span>17,02 кг; 19,84 кг; 22,62 кг; 24,8 кг; 30,62 кг; 38,81 кг</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Объём для  транспортировки</span>
+                                                </td>
+                                                <td>
+                                                    <span>0,067 м3; 0,115 м3; 0,144 м3; 0,172 м3; 0,21 м3; 0,29 м3</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Ширина сиденья</span>
+                                                </td>
+                                                <td>
+                                                    <span>413 мм</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span>Высота сиденья</span>
+                                                </td>
+                                                <td>
+                                                    <span>473 мм</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="gap-md">
+                                    <div class="h3">Описание</div>
+                                </div>
+                                <div class="fz-sm">
+                                    <p><b>Варианты исполнения:</b> ангарская сосна, лиственница, композитные материалы, термодерево. Возможность выбора цвета из палитры.</p>
+                                    <p>Производство деревянных деталей не предусматривает выбора по сортности. Использование сортов Экстра, Прима и других сортов без сучков - с дополнительной наценкой.</p>
+                                    <p>Композитные материалы. Рейки изготовлены из композитных материалов сечением 35х60 мм - они не требуют никакой дополнительной обработки и покраски. Ламели имеют нанесенную текстуру дерева. Возможность выбора цвета из палитры. Используется композит «Капелька».</p>
+                                    <p><b>Металлические части:</b> Возможность выбора цвета по каталогу RAL.</p>
+                                    <p>Скамейка стальная «Модерн» с деревянными подлокотниками обладает удобными посадочными местами. Деревянный подлокотник помимо эстетических свойств служит дополнительной опорой, преимущество которой оценят люди пожилого возраста.</p>
+                                    <p>Скамейка «Модерн» может быть использована при необходимости создания обеденной группы в едином стиле. Вы можете дополнить скамейку широким садовым столом или удобным креслом, опоры которого выполнены в одном со скамейкой стиле. При необходимости вы можете воспользоваться услугами по сборке скамейки или заказать доставку скамейки в любую точку России.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hr"></div>
+
+                        <div id="test2" class="card-detail__description">
+                            <div class="gap-md">
+                                <div class="heading">
+                                    <div class="heading-title-container">
+                                        <div class="heading-title h3">Отзывы</div>
+                                        <a class="heading-title-content link link-secondary link-tdu-hover" href="javascript:;">15 отзывов</a>
+                                    </div>
+                                    <div class="heading-btn-container">
+                                        <button class="btn-reset btn btn-secondary" type="button">
+                                            <span class="text-content">Написать отзыв</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="gap-md">
+                                <ul class="list-reset card-detail__review">
+                                    <li class="card-detail__review-item">
+                                        <div class="card-detail__review-title">Борисов Глеб</div>
+                                        <div class="card-detail__review-text spoiler-wrapper">
+                                            <div
+                                                    class="spoiler"
+                                                    data-spoiler
+                                                    data-collapsed-height="100"
+                                                    data-spoiler-more="Читать полностью"
+                                            >
+                                                <div class="spoiler-content">
+                                                    <p>Для нашего жилищного комплекса заказали такие скамейки "Модерн". Их особенность - в квадратных планках, что выглядит стильно и современно. Древесина надежно закреплена и полностью со всех сторон покрашена. Все сделано аккуратно, качеством довольны. Для нашего жилищного комплекса заказали такие скамейки "Модерн". Их особенность - в квадратных планках, что выглядит стильно и современно. Древесина надежно закреплена и полностью со всех сторон покрашена. Все сделано аккуратно, качеством довольны.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="card-detail__review-item">
+                                        <div class="card-detail__review-title">Настя Варе</div>
+                                        <div class="card-detail__review-text spoiler-wrapper">
+                                            <div
+                                                    class="spoiler"
+                                                    data-spoiler
+                                                    data-collapsed-height="100"
+                                                    data-spoiler-more="Читать полностью"
+                                            >
+                                                <div class="spoiler-content">
+                                                    <p>Лавочка понравилась мне необычно закрепленной древесиной. Сразу видно, стильная вещь. Я заказала два кресла и одну лавку в стиле модерн. Выбрала цвет махагон, очень понравился.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="card-detail__review-item">
+                                        <div class="card-detail__review-title">Илья Гурьев</div>
+                                        <div class="card-detail__review-text spoiler-wrapper">
+                                            <div
+                                                    class="spoiler"
+                                                    data-spoiler
+                                                    data-collapsed-height="100"
+                                                    data-spoiler-more="Читать полностью"
+                                            >
+                                                <div class="spoiler-content">
+                                                    <p>Симпатичный игровой комплекс. Заказали, как на картинке, с голубыми крышами. Выглядит как парусник. Детвора в восторге, и на горки очереди нету, так как их две. Здорово, что у нас делают такие красивые и классные комплексы для деток</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pagination-wrapper">
+								<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/pagination.php"); ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,7 +761,7 @@
     <div class="container">
         <div class="basic-tabs">
             <div class="gap-sm slider-out basic-slider-wrap">
-                <div class="basic-tabs-container basic-slider swiper" data-tab="mi-tabs" data-tabs-slider>
+                <div class="basic-tabs-container basic-slider swiper" data-tab="more-prod-tabs" data-tabs-slider>
                     <div class="basic-tabs-slider-list swiper-wrapper reset-slider-list">
                         <div class="basic-tabs-item swiper-slide">
                             <span class="tab basic-tabs-trigger active" data-target="recommend"><span>С этим товаром рекомендуем</span></span>
@@ -433,7 +776,7 @@
                 </div>
             </div>
 
-            <div class="basic-tabs-content" data-tab-content="mi-tabs">
+            <div class="basic-tabs-content" data-tab-content="more-prod-tabs">
                 <div class="basic-tabs-content__panel active" data-id="recommend">
                     <div class="basic-tabs-content__content">
                         <div class="slider-out basic-slider-wrap nav-out-wrap">
@@ -609,7 +952,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__sale-label">
-                                                        <span class="chip chip-hit">Хит</span>
+                                                        <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
                                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -738,7 +1081,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__sale-label">
-                                                        <span class="chip chip-hit">Хит</span>
+                                                        <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
                                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1131,7 +1474,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__sale-label">
-                                                        <span class="chip chip-hit">Хит</span>
+                                                        <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
                                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1260,7 +1603,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__sale-label">
-                                                        <span class="chip chip-hit">Хит</span>
+                                                        <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
                                                         <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
@@ -1454,7 +1797,7 @@
 	<div class="container">
 		<div class="hbk-about-text">
 			<div class="gap-xs">
-				<div class="h4">Производство всепогодного оборудования и МАФ для благоустройства городов и парков</div>
+				<div class="h4">Купить уличное спортивное оборудование от отечественного производителя</div>
 			</div>
 			<div class="spoiler-wrapper">
 				<div
@@ -1462,10 +1805,14 @@
 					data-spoiler
 					data-collapsed-height="135"
 				>
-					<div class="spoiler-content">
-						<p>Садово-парковая мебель от Хоббики выгодно отличается качеством исполнения, красивым и разнообразным дизайном. Наше оборудование прекрасно подходит для благоустройства городов и парков разных стилей архитектуры, от современных до классических, от Хай-тек до Ампира. Мебель от Хоббики установлена как во двориках малых городов, так и в знаменитых парках Москвы, Санкт-Петербурга, Сочи и других красивейших городов России.</p>
-						<p>Мы производим садово-парковое оборудование из качественных и долговечных материалов. Чугун — «вечный», сталь — «податливая», сосна — «теплая», лиственница — «надежная» - это традиционные материалы для производства классических вариантов малых архитектурных форм. Алюминий — «стойкий и удобный», композит — «инновационный» — самые современные материалы, которые мы используем.</p>
-					</div>
+                    <div class="spoiler-content">
+                        <p>У нас вы найдете обширный ассортимент тренажеров и целые комплексы для спортгородков, а также сможете приобрести оборудование для воркаута. Компания Хоббика производит и реализует обширный ассортимент высококачественного уличного спортивного оборудования для детских и школьных площадок.</p>
+                        <p>В каталоге Вы найдете различные виды спортивного уличного оборудования: брусья, турники, спортивные комплексы, оборудование для воркаута и другое</p>
+                        <p>Заказывайте то, что нужно для отличного отдыха и спортивного развития детей и взрослых. Произведем продукцию высшего качества и осуществим установку.</p>
+                        <p>Уличное спортивное оборудование предназначается для установки на детских и взрослых площадках. Без специальных тренажеров, воркаут-комплексов, игровых приборов и прочих приспособлений любая спортивная площадка будет оставаться только территорией, непригодной для практического применения.</p>
+                        <p>При этом важно покупать только высококачественное спортивное оборудование для уличных площадок. Необходимо учитывать, что тренажеры будут постоянно находиться под интенсивным воздействием окружающей среды, поэтому они должны отличаться стойкостью к коррозии, влиянию влаги, солнца и температурных перепадов. Уличное спортивное оборудование для школ и детских площадок при этом должно отличаться повышенной эргономичностью и безопасностью, учитывая, что пользоваться им будут исключительно дети.</p>
+                        <p>Кроме того, взрослое и детское спортивное уличное оборудование должно быть прочным, поскольку большинство площадок доступны вандалам, и важно, чтобы тренажеры было крайне сложно сломать.</p>
+                    </div>
 				</div>
 			</div>
 		</div>

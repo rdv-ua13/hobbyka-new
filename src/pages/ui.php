@@ -63,7 +63,8 @@
                 <h3 class="h3 ui-title title-bold text-center">Gaps</h3>
 
                 <div class="ui-row">
-<pre>
+                    <div class="fz-sm">
+                        <pre>
 @media (min-width: 992px) {
     .gap-xxxs { margin-bottom: 16px !important; }
     .gap-xxs { margin-bottom: 20px !important; }
@@ -80,7 +81,8 @@
     .gap-sm { margin-bottom: 24px !important; }
     .gap-md, .gap-lg, .gap-xl { margin-bottom: 32px !important; }
 }
-</pre>
+                        </pre>
+                    </div>
                 </div>
             </div>
 
@@ -95,6 +97,15 @@
                             .icon-stroke - строго запрещает свойство "fill"
                         </div><br>
                         <div class="fz-subtitle">использование use ==> sprite.svg#id_из_тултип / file-name.svg#file-name</div>
+                        <div class="fz-sm">
+                            <pre>
+.icon-xs { width: 12px!important; height: 12px!important; }
+.icon-sm { width: 16px!important; height: 16px!important; } <-- default
+.icon-md { width: 20px!important; height: 20px!important; }
+.icon-lg { width: 24px!important; height: 24px!important; }
+.icon-xl { width: 28px!important; height: 28px!important; }
+                            </pre>
+                        </div>
                     </div>
                     <div class="ui-tooltip-set">
                         <span class="tooltip" data-tippy-content="#arrow-left">
@@ -342,6 +353,48 @@
                             </svg>
                             <!--end ui content-->
                         </span>
+                        <span class="tooltip" data-tippy-content="#minus">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#minus"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="#plus">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#plus"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="#info">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#info"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="#star">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#star"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="#play">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#play"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="#3d">
+                            <!--start ui content-->
+                            <svg class="icon icon-md icon-fill">
+                                <use href="img/sprite.svg#3d"></use>
+                            </svg>
+                            <!--end ui content-->
+                        </span>
                     </div>
                 </div>
             </div>
@@ -566,6 +619,11 @@
                             <span class="chip chip-hit">Хит</span>
                             <!--end ui content-->
                         </span>
+                        <span class="tooltip" data-tippy-content="class='chip chip-hit-star'">
+                            <!--start ui content-->
+                            <span class="chip chip-hit-star">Хит</span>
+                            <!--end ui content-->
+                        </span>
                     </div>
                 </div>
 
@@ -623,6 +681,7 @@
                                                     type="checkbox"
                                                     name="UI[TAGS][]"
                                                     value=""
+                                                    checked
                                             >
                                             <span class="tag tag--border">
                                                 <span>Текст</span>
