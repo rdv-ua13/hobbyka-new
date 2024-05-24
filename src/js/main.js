@@ -890,7 +890,6 @@ application.prototype.initCatalogContentSort = function () {
         $(window).on('resize', setSortSelect);
 
         $(document).on('click', function (e) {
-            console.log(e.target);
             if (!$('[data-sort-select]').is(e.target) &&
                 !$('[data-sort-options]').is(e.target) &&
                 $('[data-sort-options]').has(e.target).length === 0)
