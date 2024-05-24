@@ -3911,73 +3911,6 @@ input.disabled {
 	}
 }
 
-.tag-wrapper {
-	position: relative;
-
-	input:checked {
-		border-color: var(--gray5-color);
-		background-color: var(--gray5-color);
-		color: var(--black-color);
-
-		& ~ .tag {
-			border-color: var(--yellow-color);
-			background-color: var(--white-color);
-
-			&::before {
-				z-index: 1;
-				content: "";
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				border: 2px solid var(--yellow-color);
-				border-radius: 32px;
-				transition: var(--transition);
-			}
-
-			.icon {
-				fill: var(--black-color);
-				stroke: var(--black-color);
-			}
-
-			&--green {
-				border-color: var(--green-color);
-
-				&::before {
-					border-color: var(--green-color);
-				}
-
-				.icon {
-					fill: var(--green-color);
-					stroke: var(--green-color);
-				}
-			}
-		}
-	}
-}
-.tag-bar {
-	&.swiper {
-		width: 100%;
-
-		& .swiper-slide {
-			width: auto;
-		}
-	}
-	&__list {
-		&:not(.swiper-wrapper) {
-			display: flex;
-			flex-wrap: wrap;
-			align-items: center;
-			gap: 8px;
-		}
-	}
-	&__item {
-		&:not(.swiper-slide) {
-			display: flex;
-		}
-	}
-}
 .tag {
 	position: relative;
 	display: flex;
@@ -4036,6 +3969,75 @@ input.disabled {
 		}
 		&.tag--green {
 			background-color: var(--green2-color);
+		}
+	}
+
+	&-wrapper {
+		position: relative;
+
+		input:checked {
+			border-color: var(--gray5-color);
+			background-color: var(--gray5-color);
+			color: var(--black-color);
+
+			& ~ .tag {
+				border-color: var(--yellow-color);
+				background-color: var(--white-color);
+
+				&::before {
+					z-index: 1;
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					border: 2px solid var(--yellow-color);
+					border-radius: 32px;
+					transition: var(--transition);
+				}
+
+				.icon {
+					fill: var(--black-color);
+					stroke: var(--black-color);
+				}
+
+				&--green {
+					border-color: var(--green-color);
+
+					&::before {
+						border-color: var(--green-color);
+					}
+
+					.icon {
+						fill: var(--green-color);
+						stroke: var(--green-color);
+					}
+				}
+			}
+		}
+	}
+
+	&-bar {
+		&.swiper {
+			width: 100%;
+
+			.swiper-slide {
+				width: auto;
+			}
+		}
+		&__list {
+			&:not(.swiper-wrapper) {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 8px;
+			}
+		}
+		&__item {
+			&:not(.swiper-slide) {
+				display: flex;
+			}
 		}
 	}
 }

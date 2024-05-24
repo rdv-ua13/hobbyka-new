@@ -420,7 +420,7 @@
                                         id="sortByPopular"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[SORT][POPULAR]"
+                                        name="sortCatalogFilter[SORT][]"
                                         value=""
                                         checked="checked"
                                 >
@@ -431,7 +431,7 @@
                                         id="sortByPrice"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[SORT][PRICE]"
+                                        name="sortCatalogFilter[SORT][]"
                                         value=""
                                 >
                                 <span class="tag">цене</span>
@@ -441,7 +441,7 @@
                                         id="sortByReview"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[SORT][REVIEW]"
+                                        name="sortCatalogFilter[SORT][]"
                                         value=""
                                 >
                                 <span class="tag">отзывам</span>
@@ -492,7 +492,7 @@
                                         id="sortByPopular"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[MATERIAL][STEEL_WOOD]"
+                                        name="sortCatalogFilter[MATERIAL][]"
                                         value=""
                                         checked="checked"
                                 >
@@ -503,7 +503,7 @@
                                         id="sortByPrice"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[MATERIAL][STEEL]"
+                                        name="sortCatalogFilter[MATERIAL][]"
                                         value=""
                                 >
                                 <span class="tag">сталь</span>
@@ -513,7 +513,7 @@
                                         id="sortByReview"
                                         class="visually-hidden"
                                         type="radio"
-                                        name="sortCatalogFilter[MATERIAL][WOOD]"
+                                        name="sortCatalogFilter[MATERIAL][]"
                                         value=""
                                 >
                                 <span class="tag">дерево-композит</span>
