@@ -702,7 +702,7 @@
                                             <div
                                                     class="spoiler"
                                                     data-spoiler
-                                                    data-collapsed-height="100"
+                                                    data-collapsed-height="96"
                                                     data-spoiler-more="Читать полностью"
                                             >
                                                 <div class="spoiler-content">
@@ -717,7 +717,7 @@
                                             <div
                                                     class="spoiler"
                                                     data-spoiler
-                                                    data-collapsed-height="100"
+                                                    data-collapsed-height="96"
                                                     data-spoiler-more="Читать полностью"
                                             >
                                                 <div class="spoiler-content">
@@ -732,7 +732,7 @@
                                             <div
                                                     class="spoiler"
                                                     data-spoiler
-                                                    data-collapsed-height="100"
+                                                    data-collapsed-height="96"
                                                     data-spoiler-more="Читать полностью"
                                             >
                                                 <div class="spoiler-content">

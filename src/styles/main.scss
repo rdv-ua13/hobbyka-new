@@ -922,10 +922,10 @@
 							height: 48px;
 						}
 					}
-					.media-photo,
-					.media-video,
-					.media-3d,
-					.media-ar {
+					&-photo,
+					&-video,
+					&-3d,
+					&-ar {
 						.image,
 						video {
 							opacity: 0.1;
