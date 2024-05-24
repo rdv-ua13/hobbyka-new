@@ -29,7 +29,7 @@
     <script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->
     <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
-    <script defer src="js/accordion.js"></script>               <!-- accordion -->
+    <script defer src="js/sticky.min.js"></script>              <!-- sticky -->
 
     <script defer src="js/main.js"></script>
 </head>

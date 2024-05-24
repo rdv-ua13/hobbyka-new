@@ -16,6 +16,7 @@ application.prototype.init = function () {
     this.initBasicSlider();
     this.initBasicTabSlider();
     this.initSliders();
+    this.initSticky();
     this.initMiniSlider();
     this.initSelect2();
     this.initSelect2Unsearch();
@@ -449,6 +450,13 @@ application.prototype.initSliders = function () {
                 swiper: detailThumbSliderPointer,
             }
         });
+    }
+};
+
+// Initialization sticky block
+application.prototype.initSticky = function () {
+    if ($('[data-sticky]').length) {
+        let sticky = new Sticky('[data-sticky]');
     }
 };
 

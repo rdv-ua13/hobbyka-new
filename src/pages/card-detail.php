@@ -8,8 +8,12 @@
             </div>
 
             <div class="card-detail">
-                <div class="card-detail__item card-detail__view">
-                    <div class="card-detail__view-content detail-thumb-slider-wrapper">
+                <div class="card-detail__item card-detail__view" data-sticky-container>
+                    <div class="detail-thumb-slider-wrapper"
+                         data-sticky
+                         data-margin-top="229"
+                         data-sticky-class="is-sticky"
+                    >
                         <div class="gap-xxxs slider-out basic-slider-wrap nav-out-wrap">
                             <div class="basic-slider nav-out detail-thumb-slider swiper">
                                 <div class="swiper-wrapper">
@@ -213,10 +217,7 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-                    <div class="bg-dark" style="flex: 1;">text</div>
                 </div>
                 <div class="card-detail__item card-detail__descr">
                     <div class="gap-xs card-detail__action">

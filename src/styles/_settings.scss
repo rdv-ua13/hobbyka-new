@@ -1681,9 +1681,6 @@ input.disabled {
 		}
 	}
 }
-/*.select2-container {
-	display: inline-flex;
-}*/
 .select2-dropdown {
 	overflow: hidden;
 	border: 0;
@@ -2186,23 +2183,6 @@ input.disabled {
 				}
 			}
 		}
-
-		/*&.view-more {
-			.swiper-slide {
-				min-width: 240px;
-				width: 240px;
-			}
-		}*/
-	}
-}
-@media (min-width: 1400px) {
-	.basic-slider {
-		/*&.view-less {
-			.swiper-slide {
-				min-width: 400px;
-				width: 400px;
-			}
-		}*/
 	}
 }
 @media (max-width: 991.98px) {
@@ -2226,13 +2206,6 @@ input.disabled {
 				}
 			}
 		}
-
-		/*&.view-less {
-			.swiper-slide {
-				min-width: 240px;
-				width: 240px;
-			}
-		}*/
 	}
 
 	.slider-out {
@@ -2249,62 +2222,6 @@ input.disabled {
 				}
 			}
 		}
-	}
-}
-@media (max-width: 575.98px) {
-	.basic-slider {
-		/*&.view-less {
-			.swiper-slide {
-				min-width: 264px;
-				width: 264px;
-			}
-		}
-		&.view-more {
-			.swiper-slide {
-				min-width: 150px;
-				width: 150px;
-			}
-		}*/
-	}
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-	.basic-slider {
-		/*&.view-more {
-			.swiper-slide {
-				min-width: 195px;
-				width: 195px;
-			}
-		}*/
-	}
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-	.basic-slider {
-		/*&.view-more {
-			.swiper-slide {
-				min-width: 240px;
-				width: 240px;
-			}
-		}*/
-	}
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	.basic-slider {
-		/*&.view-less {
-			.swiper-slide {
-				min-width: 264px;
-				width: 264px;
-			}
-		}*/
-	}
-}
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-	.basic-slider {
-		/*&.view-less {
-			.swiper-slide {
-				min-width: 330px;
-				width: 330px;
-			}
-		}*/
 	}
 }
 
@@ -3235,13 +3152,6 @@ input.disabled {
 			}
 			&__view {
 				flex-direction: column;
-				height: 2910px;
-
-				&-content {
-					position: sticky;
-					top: 0;
-					height: 672px;
-				}
 			}
 			&__action {
 				margin-top: -60px;
@@ -3310,17 +3220,9 @@ input.disabled {
 				&-content {
 					min-width: 100%;
 					width: 100%;
-					/*min-width: 164px;
-					width: 164px;*/
 					min-height: 164px;
 					height: 164px;
 				}
-				/*.card__view {
-					&-content {
-						min-width: calc(100vw - 48px);
-						width: calc(100vw - 48px);
-					}
-				}*/
 			}
 			.card__title {
 				min-height: 42px;

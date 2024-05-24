@@ -31,6 +31,7 @@
     <script defer src="js/ru.js"></script>                      <!-- flatpickr -->
     <script defer src="js/nouislider.js"></script>              <!-- nouislider -->
     <script defer src="js/accordion.js"></script>               <!-- accordion -->
+    <script defer src="js/sticky.min.js"></script>              <!-- sticky -->
 
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>

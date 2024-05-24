@@ -56,16 +56,6 @@
 				margin-bottom: unset;
 			}
 		}
-		/*.accordion {
-			.icon {
-				fill: var(--white-color);
-				stroke: var(--white-color);
-			}
-
-			.footer__title {
-				margin-bottom: unset;
-			}
-		}*/
 
 		.footer-contacts {
 			&__tel {
@@ -191,33 +181,6 @@
 					font-size: 24px;
 				}
 			}
-			/*.accordion {
-				&__item {
-					padding: unset;
-					border-radius: unset;
-					box-shadow: unset;
-				}
-				&__header {
-					&:not(:last-child) {
-						margin-bottom: 20px;
-					}
-				}
-				&__btn {
-					.icon {
-						display: none;
-					}
-				}
-				&__collapse {
-					padding: unset;
-
-					&.collapsed {
-						display: block !important;
-					}
-					&-content {
-						overflow: unset;
-					}
-				}
-			}*/
 			.ac {
 				&-trigger {
 					cursor: text;
@@ -291,15 +254,6 @@
 					font-size: 20px;
 				}
 			}
-			/*.accordion {
-				&__btn {
-					gap: 12px;
-
-					.icon {
-						margin-top: 4px;
-					}
-				}
-			}*/
 		}
 
 		&__title {
